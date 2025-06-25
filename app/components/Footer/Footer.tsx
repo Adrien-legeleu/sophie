@@ -32,12 +32,12 @@ export default function Footer() {
           RELAXANTS & THÉRAPEUTIQUES
         </h2>
         <div>
-          <p className="text-center text-xl">Uniquement sur rendez-vous</p>
-          <p className="text-center text-xl font-bold">
+          <p className="text-center text-lg">Uniquement sur rendez-vous</p>
+          <p className="text-center text-lg font-bold">
             Agréée ASCA & RME N° RCC: P402763
           </p>
         </div>
-        <ul className="text-center text-xl">
+        <ul className="text-center text-lg">
           <li>Sophie Dénériaz</li>
           <li>Chemin de la Jaque 80</li>
           <li>1093 La Conversion</li>

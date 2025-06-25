@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import StarClientsGoogle from './GoogleClientsHero';
+import { IconPhoneFilled, IconCalendarMonthFilled } from '@tabler/icons-react';
 
 export default function HeroHome() {
   return (
@@ -28,16 +29,22 @@ export default function HeroHome() {
       <div className="flex gap-10 justify-center items-center z-10">
         <Button
           asChild
-          className="text-lg py-7 px-5 rounded-full bg-white text-black"
+          className="text-lg  px-5 py-7 rounded-full bg-white text-black"
         >
-          <a href="tel:+41793562008">Nous appeler ?</a>
+          <a href="tel:+41793562008">
+            {' '}
+            <IconPhoneFilled className="min-w-6 min-h-6 text-[#ED1C8F]" />{' '}
+            M'appeler
+          </a>
         </Button>
-
         <Button
           asChild
           className="text-lg py-7 px-5 rounded-full bg-white text-black"
         >
-          <Link href="/contact"> Prendre rendez-vous</Link>
+          <Link href="/contact">
+            <IconCalendarMonthFilled className="min-w-6 min-h-6  text-[#ED1C8F]" />
+            Prendre rendez-vous
+          </Link>
         </Button>
       </div>
     </div>

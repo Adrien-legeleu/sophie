@@ -4,18 +4,17 @@ import { cn } from '@/lib/utils';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
-  IconApps,
-  IconChartLine,
-  IconDeviceLaptop,
-  IconEye,
-  IconHelpHexagon,
-  IconHistory,
-  IconMessage,
+  IconStethoscope,
+  IconHeartbeat,
+  IconMoodSmile,
+  IconFingerprint,
+  IconWind,
+  IconChairDirector,
+  IconUserHeart,
   IconShieldCheck,
-  IconThumbUp,
-  IconUser,
-  IconUsersGroup,
+  IconCertificate,
 } from '@tabler/icons-react';
+
 import { HoveredLink, Menu, MenuItem } from '@/components/ui/navbar-menu';
 import { Button } from '@/components/ui/button';
 
@@ -48,27 +47,35 @@ export function Header({ className }: { className?: string }) {
               active={active}
               item="Accueil"
               link="/"
+              isLink={true}
             ></MenuItem>
             <MenuItem
               setActive={setActive}
               active={active}
               item="Soins"
               link="/"
+              isLink={false}
             >
               <div className="flex flex-col space-y-4 text-sm">
-                <HoveredLink href="/nos-services/#buisness-developpement">
-                  <IconChartLine stroke={2} /> Accélérez votre croissance
+                <HoveredLink href="/massage-therapeutique">
+                  <IconStethoscope stroke={2} />
+                  Massage Therapeutique
                 </HoveredLink>
-                <HoveredLink href="/nos-services/#developpement-digital">
-                  <IconDeviceLaptop stroke={2} /> Modernisez votre présence en
-                  ligne
+                <HoveredLink href="/copie-de-massotherapie">
+                  <IconHeartbeat stroke={2} /> Copie de Massothérapie
                 </HoveredLink>
-                <HoveredLink href="/nos-services/#pourquoi-nous">
-                  <IconThumbUp stroke={2} /> Ce qui fait notre différence
+                <HoveredLink href="/massage-relaxant-1">
+                  <IconMoodSmile stroke={2} /> Massage relaxant
                 </HoveredLink>
 
-                <HoveredLink href="/nos-services/#faq">
-                  <IconHelpHexagon stroke={2} /> Foire aux questions
+                <HoveredLink href="/reflexologie-plantaire">
+                  <IconFingerprint stroke={2} /> Réflexologie plantaire
+                </HoveredLink>
+                <HoveredLink href="/ampoules">
+                  <IconWind stroke={2} /> Soinaux ventouses
+                </HoveredLink>
+                <HoveredLink href="/massage-assis">
+                  <IconChairDirector stroke={2} /> Massage assis
                 </HoveredLink>
               </div>
             </MenuItem>
@@ -76,42 +83,41 @@ export function Header({ className }: { className?: string }) {
               setActive={setActive}
               active={active}
               item="Biorésonance"
-              link="/about"
-            >
-              <div className="flex flex-col space-y-4 text-sm">
-                <HoveredLink href="/about/#notre-histoire">
-                  <IconHistory stroke={2} />
-                  Notre Histoire
-                </HoveredLink>
-                <HoveredLink href="/about/#notre-equipe">
-                  <IconUsersGroup stroke={2} />
-                  Notre Equipe
-                </HoveredLink>
-                <HoveredLink href="/about/#notre-vision">
-                  <IconEye stroke={2} /> Notre Vision
-                </HoveredLink>
-                <HoveredLink href="/about/#notre-garantie">
-                  <IconShieldCheck stroke={2} /> Notre Garantie
-                </HoveredLink>
-              </div>
-            </MenuItem>
+              link="/bioresonance"
+              isLink={true}
+            ></MenuItem>
             <MenuItem
               setActive={setActive}
               active={active}
               item="Shungite"
-              link="/blog"
+              link="/blank"
+              isLink={true}
             ></MenuItem>
             <MenuItem
               setActive={setActive}
               active={active}
               item="A propos"
-              link="/blog"
-            ></MenuItem>
+              link="/"
+              isLink={false}
+            >
+              <div className="flex flex-col space-y-4 text-sm">
+                <HoveredLink href="/sophie-deneriaz">
+                  <IconUserHeart stroke={2} />
+                  Sophie dénériaz
+                </HoveredLink>
+                <HoveredLink href="/assurances">
+                  <IconShieldCheck stroke={2} /> Assurances
+                </HoveredLink>
+                <HoveredLink href="/certifications">
+                  <IconCertificate stroke={2} /> Certifications
+                </HoveredLink>
+              </div>
+            </MenuItem>
             <div className="flex items-center gap-4">
               <Button
                 asChild
                 variant={'secondary'}
-                className="rounded-3xl py-5 text-white bg-[#ED1C8F]"
+                className="rounded-3xl py-5 text-white bg-[#ED1C8F] hover:bg-[#ed1c8fd1]"
               >
                 <Link href={'/contact'}>Contactez-nous</Link>
               </Button>

@@ -19,23 +19,34 @@ export const MenuItem = ({
   item,
   children,
   link,
+  isLink,
 }: {
   setActive: (item: string) => void;
   active: string | null;
   item: string;
   children?: React.ReactNode;
   link: string;
+  isLink: Boolean;
 }) => {
   return (
     <div onMouseEnter={() => setActive(item)} className="relative ">
-      <Link href={link}>
+      {isLink ? (
+        <Link href={link}>
+          <motion.span
+            transition={{ duration: 0.3 }}
+            className="cursor-pointer text-[#C2B4A4] text-xl hover:opacity-[0.9] dark:text-white"
+          >
+            {item}
+          </motion.span>
+        </Link>
+      ) : (
         <motion.span
           transition={{ duration: 0.3 }}
           className="cursor-pointer text-[#C2B4A4] text-xl hover:opacity-[0.9] dark:text-white"
         >
           {item}
         </motion.span>
-      </Link>
+      )}
       {active !== null && (
         <motion.div
           initial={{ opacity: 0, scale: 0.85, y: 10 }}
@@ -121,7 +132,7 @@ export const HoveredLink = ({
   return (
     <Link
       {...rest}
-      className="text-neutral-700 dark:text-neutral-200 hover:text-black flex gap-2 items-center "
+      className="text-[#C2B4A4]  hover:text-[#a59787] flex gap-2 items-center "
     >
       {children}
     </Link>

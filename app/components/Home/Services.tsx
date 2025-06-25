@@ -19,7 +19,7 @@ export default function Services() {
           <Link
             href={service.slug}
             key={index}
-            className="bg-white relative overflow-hidden p-5 shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-[3rem]"
+            className="bg-white flex flex-col items-center justify-between relative overflow-hidden p-5 shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-[3rem]"
           >
             <Image
               src={service.image}
@@ -70,57 +70,57 @@ export default function Services() {
 
 const services = [
   {
-    title: 'Massage Thérapeutique',
+    title: 'MASSAGE THÉRAPEUTIQUE',
     description:
       'Le massage suédois est idéal pour soulager les tensions musculaires et améliorer la circulation sanguine. Laissez-vous envelopper par des mouvements fluides et profonds.',
     image: '/services/massage therapeutique.avif',
-    slug: '',
-    price: '100 CHF',
-    duration: '1heure',
+    slug: '/massage-therapeutique',
+    price: 'CHF 120.',
+    duration: '60min',
   },
   {
-    title: 'Massage Thérapeutique',
+    title: 'MASSAGE CLASSIQUE AUX HUILES ESSENTIELLES',
     description:
-      'Le massage suédois est idéal pour soulager les tensions musculaires et améliorer la circulation sanguine. Laissez-vous envelopper par des mouvements fluides et profonds.',
-    image: '/services/massage therapeutique.avif',
-    slug: '',
-    price: '100 CHF',
-    duration: '1heure',
+      "Le massage aux huiles essentielles sert à soigner les maladies ainsi qu'à exprimer les sentiments.Grâce à son pouvoir, il permet de neutraliser le stress.",
+    image: '/services/massage classique aux huiles.avif',
+    slug: '/copie-de-massotherapie',
+    price: 'CHF 100.',
+    duration: '60min',
   },
   {
-    title: 'Massage Thérapeutique',
+    title: 'RÉFLEXOLOGIE PLANTAIRE',
     description:
-      'Le massage suédois est idéal pour soulager les tensions musculaires et améliorer la circulation sanguine. Laissez-vous envelopper par des mouvements fluides et profonds.',
-    image: '/services/massage therapeutique.avif',
-    slug: '',
-    price: '100 CHF',
-    duration: '1heure',
+      "La réflexologie est une thérapie qui stimule des zones réflexes situées sur les pieds et les mains, reliées aux organes et systèmes du corps. Elle aide à libérer les tensions et à rétablir l'équilibre du corps.",
+    slug: '/reflexologie-plantaire',
+    image: '/services/réflexologie plantaire.avif',
+    price: 'CHF 120.',
+    duration: '60min',
   },
   {
-    title: 'Massage Thérapeutique',
+    title: 'MASSAGE RELAXANT DYNAMISE A LA SHUNGITE',
     description:
-      'Le massage suédois est idéal pour soulager les tensions musculaires et améliorer la circulation sanguine. Laissez-vous envelopper par des mouvements fluides et profonds.',
-    image: '/services/massage therapeutique.avif',
-    slug: '',
-    price: '100 CHF',
-    duration: '1heure',
+      "Le massage relaxant dynamisé à la shungite combine les bienfaits du massage classique avec l'énergie unique de la shungite, une pierre aux propriétés protectrices et purifiantes. Ce massage aide à détendre les muscles, tout en équilibrant les énergies du corps.",
+    slug: '/massage-relaxant-1',
+    image: '/services/massage relaxant dynamise a la shungite.avif',
+    price: 'CHF 100.',
+    duration: '60min',
   },
   {
-    title: 'Massage Thérapeutique',
+    title: 'MASSAGE ASSIS EN ENTREPRISE',
     description:
-      'Le massage suédois est idéal pour soulager les tensions musculaires et améliorer la circulation sanguine. Laissez-vous envelopper par des mouvements fluides et profonds.',
-    image: '/services/massage therapeutique.avif',
-    slug: '',
-    price: '100 CHF',
-    duration: '1heure',
+      "Prestation de Bien-Être en entreprise par massage assis sur vêtements et sans huile.​Déplacement sur place ainsi que la création d'un devis.",
+    image: '/services/massage assis en entreprise.avif',
+    slug: '/massage-assis',
+    price: 'CHF 100.',
+    duration: '60min',
   },
   {
-    title: 'Massage Thérapeutique',
+    title: 'SOIN AUX VENTOUSES',
     description:
-      'Le massage suédois est idéal pour soulager les tensions musculaires et améliorer la circulation sanguine. Laissez-vous envelopper par des mouvements fluides et profonds.',
-    image: '/services/massage therapeutique.avif',
-    slug: '',
-    price: '100 CHF',
-    duration: '1heure',
+      'Le soin aux ventouses est une technique ancienne qui consiste à  créer un effet de succion. Cette succion stimule la circulation sanguine, favorise la détoxification, et soulage les tensions musculaires. ',
+    image: '/services/soins aux ventouses.avif',
+    slug: '/ampoules',
+    price: 'CHF 60.',
+    duration: '30min',
   },
 ];
