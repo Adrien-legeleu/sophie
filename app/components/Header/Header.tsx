@@ -46,30 +46,14 @@ export function Header({ className }: { className?: string }) {
             <MenuItem
               setActive={setActive}
               active={active}
-              item="Home"
+              item="Accueil"
               link="/"
-            >
-              <div className="flex flex-col space-y-4 text-sm">
-                <HoveredLink href="/#about">
-                  <IconUser stroke={2} />A Propos
-                </HoveredLink>
-                <HoveredLink href="/#services">
-                  {' '}
-                  <IconApps stroke={2} />
-                  Nos Services
-                </HoveredLink>
-                <HoveredLink href="/#review">
-                  {' '}
-                  <IconMessage stroke={2} />
-                  Témoignages
-                </HoveredLink>
-              </div>
-            </MenuItem>
+            ></MenuItem>
             <MenuItem
               setActive={setActive}
               active={active}
-              item="Nos Services"
-              link="/nos-services"
+              item="Soins"
+              link="/"
             >
               <div className="flex flex-col space-y-4 text-sm">
                 <HoveredLink href="/nos-services/#buisness-developpement">
@@ -91,7 +75,7 @@ export function Header({ className }: { className?: string }) {
             <MenuItem
               setActive={setActive}
               active={active}
-              item="A Propos"
+              item="Biorésonance"
               link="/about"
             >
               <div className="flex flex-col space-y-4 text-sm">
@@ -114,14 +98,20 @@ export function Header({ className }: { className?: string }) {
             <MenuItem
               setActive={setActive}
               active={active}
-              item="Conseils Digitaux"
+              item="Shungite"
+              link="/blog"
+            ></MenuItem>
+            <MenuItem
+              setActive={setActive}
+              active={active}
+              item="A propos"
               link="/blog"
             ></MenuItem>
             <div className="flex items-center gap-4">
               <Button
                 asChild
                 variant={'secondary'}
-                className="rounded-3xl py-5 text-[#ED1C8F]"
+                className="rounded-3xl py-5 text-white bg-[#ED1C8F]"
               >
                 <Link href={'/contact'}>Contactez-nous</Link>
               </Button>

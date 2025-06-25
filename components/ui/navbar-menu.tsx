@@ -1,11 +1,11 @@
-"use client";
-import React, { ReactNode } from "react";
-import { motion, Transition } from "framer-motion";
-import Link, { LinkProps } from "next/link";
-import Image from "next/image";
+'use client';
+import React, { ReactNode } from 'react';
+import { motion, Transition } from 'framer-motion';
+import Link, { LinkProps } from 'next/link';
+import Image from 'next/image';
 
 const transition: Transition = {
-  type: "spring",
+  type: 'spring',
   mass: 0.5,
   damping: 11.5,
   stiffness: 100,
@@ -69,13 +69,13 @@ export const Menu = ({
   children,
 }: {
   setActive: (item: string | null) => void;
- 
+
   children: React.ReactNode;
 }) => {
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className={`relative rounded-full   max-w-[1400px] w-auto backdrop-blur-md mt-5 bg-white/90 gap-20 justify-between   flex space-x-4 px-6 py-4 duration-500 ease-in-out  `}
+      className={`relative rounded-full   max-w-[1400px] w-auto backdrop-blur-md mt-5 bg-white/90 border-[1px] shadow-xl shadow-black/05 gap-20 justify-between   flex space-x-4 px-6 py-4 duration-500 ease-in-out  `}
     >
       {children}
     </nav>

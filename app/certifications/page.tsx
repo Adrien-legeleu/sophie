@@ -42,7 +42,7 @@ export default function page() {
                 width={1000}
                 height={1000}
                 alt="certification"
-                className="w-64 h-auto object-cover rounded-lg"
+                className="w-72 h-auto object-cover rounded-lg"
               />
             </li>
           ))}
