@@ -38,8 +38,9 @@ export default function page() {
                 className="w-full h-auto object-cover rounded-[3rem] shadow-lg"
               />
               <span className="relative left-5 max-md:text-sm top-1 font-light">
-                Massage assis sur chaise ergonomique d'une durée de 15 minutes.
-                Le massé conserve ses vêtements, aucune huile n'est utilisée.
+                Massage assis sur chaise ergonomique d&apos;une durée de 15
+                minutes. Le massé conserve ses vêtements, aucune huile
+                n&apos;est utilisée.
               </span>
             </div>
             <div className="basis-[60%] space-y-10">
@@ -49,13 +50,14 @@ export default function page() {
                 </h2>
                 <p className="text-justify font-light">
                   Le massage assis en entreprise offre une multitude de
-                  bienfaits tant pour les employés que pour l’entreprise
+                  bienfaits tant pour les employés que pour l&apos;entreprise
                   elle-même. Tout d'abord, il aide à réduire le stress et
-                  l’anxiété, ce qui se traduit par une meilleure concentration
-                  et une augmentation de la productivité. En soulageant les
-                  douleurs musculaires, il contribue également à réduire
-                  l'absentéisme dû aux troubles musculo-squelettiques, tels que
-                  les douleurs cervicales et les tensions dorsales.
+                  l&apos;anxiété, ce qui se traduit par une meilleure
+                  concentration et une augmentation de la productivité. En
+                  soulageant les douleurs musculaires, il contribue également à
+                  réduire l&apos;absentéisme dû aux troubles
+                  musculo-squelettiques, tels que les douleurs cervicales et les
+                  tensions dorsales.
                 </p>
               </div>
 
@@ -65,18 +67,18 @@ export default function page() {
                 de se sentir plus alertes et énergiques. Ce soin rapide et
                 accessible est particulièrement bénéfique pour ceux qui passent
                 de longues heures devant un ordinateur, aidant ainsi à prévenir
-                le syndrome du canal carpien et d'autres affections liées à une
-                posture inadéquate.
+                le syndrome du canal carpien et d&apos;autres affections liées à
+                une posture inadéquate.
               </p>
               <p className="text-justify font-light">
                 De plus, proposer des massages assis dans le cadre de la
                 politique de bien-être en entreprise renforce le sentiment
                 d’appartenance et améliore la satisfaction au travail. Cela
-                montre également que l'entreprise se soucie du bien-être de ses
-                employés, ce qui peut renforcer leur engagement et leur
+                montre également que l&apos;entreprise se soucie du bien-être de
+                ses employés, ce qui peut renforcer leur engagement et leur
                 motivation. En somme, le massage assis en entreprise est un
                 investissement judicieux pour favoriser la santé, la
-                productivité et la cohésion d'équipe.
+                productivité et la cohésion d&apos;équipe.
               </p>
             </div>
           </div>

@@ -6,7 +6,7 @@ import { IconArrowsMinimize } from '@tabler/icons-react';
 import { IconInfoSquareRounded } from '@tabler/icons-react';
 import { IconX } from '@tabler/icons-react';
 
-export default function page() {
+export default function Page() {
   const [imageIsClicked, setImageIsClicked] = useState(false);
   const [imageSrcClicked, setImageSrcClicked] = useState('');
   const [infoClicked, setInfoClicked] = useState(false);

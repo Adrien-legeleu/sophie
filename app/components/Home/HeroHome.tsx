@@ -34,7 +34,7 @@ export default function HeroHome() {
           <a href="tel:+41793562008">
             {' '}
             <IconPhoneFilled className="min-w-6 min-h-6 text-[#ED1C8F]" />{' '}
-            M'appeler
+            M&apos;appeler
           </a>
         </Button>
         <Button

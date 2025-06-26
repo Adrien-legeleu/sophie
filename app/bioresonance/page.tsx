@@ -16,8 +16,8 @@ export default function page() {
             La thérapie de biorésonance est un procédé thérapeutique qui utilise
             les ondes électromagnétiques émises par le corps du patient. On a
             longtemps considéré à tort les champs électromagnétiques de tissus
-            et d'organes comme un produit secondaire de l'activité cellulaire et
-            donc comme biologiquement insignifiants.
+            et d&apos;organes comme un produit secondaire de l&apos;activité
+            cellulaire et donc comme biologiquement insignifiants.
           </p>
           <h2 className="text-2xl font-semibold">
             Comment se déroule une séance de biorésonance ?
@@ -42,12 +42,12 @@ export default function page() {
           <p className="text-justify  font-light">
             <strong>
               {' '}
-              Le traitement s'opère directement après les mesures.
+              Le traitement s&apos;opère directement après les mesures.
             </strong>
           </p>
           <p className="text-justify  font-light">
-            En plus de la fonction de mesure et d'analyse, votre thérapeute vous
-            établit une proposition de traitement en{' '}
+            En plus de la fonction de mesure et d&apos;analyse, votre thérapeute
+            vous établit une proposition de traitement en{' '}
             <strong>douceur, simple et indolore,</strong>
             parfaitement adaptée aux besoins de votre organisme.
           </p>
@@ -88,12 +88,12 @@ export default function page() {
         </div>
 
         <p className="text-justify font-light">
-          Allongé(e), vous n’avez plus qu'à vous relaxer en pensant
+          Allongé(e), vous n&apos;avez plus qu'à vous relaxer en pensant
           exclusivement à votre bien-être durant les 30 à 40 minutes de
           traitement.{' '}
           <strong>
-            Des mesures comparatives permettent d'observer les évolutions et
-            modifications au niveau général et en détail.
+            Des mesures comparatives permettent d&apos;observer les évolutions
+            et modifications au niveau général et en détail.
           </strong>
         </p>
 
@@ -116,7 +116,7 @@ export default function page() {
         </div>
         <div className="space-y-5">
           <h2 className="text-2xl font-semibold">
-            La biorésonance est efficace pour traiter les d'allergies aux
+            La biorésonance est efficace pour traiter les d&apos;allergies aux
             pollens
           </h2>
           <p className="text-justify font-light">
@@ -161,11 +161,12 @@ export default function page() {
             dernière génération
           </h2>
           <p className="text-justify font-light">
-            Après la réalisation d'un bilan énergétique complet du corps (tous
-            les organes, les articulations, les vertèbres, les muscles),
-            l’ensemble des systèmes corporels (système digestif, respiratoire,
-            immunitaire, endocrinien) l'on procède ensuite au traitement de
-            rééquilibrage énergétique parfois en plusieurs séances.
+            Après la réalisation d&apos;un bilan énergétique complet du corps
+            (tous les organes, les articulations, les vertèbres, les muscles),
+            l&apos;ensemble des systèmes corporels (système digestif,
+            respiratoire, immunitaire, endocrinien) l&apos;on procède ensuite au
+            traitement de rééquilibrage énergétique parfois en plusieurs
+            séances.
           </p>
         </div>
         <div className="space-y-5">
@@ -173,8 +174,8 @@ export default function page() {
             Des conclusions très précises
           </h2>
           <p className="text-justify font-light">
-            Chaque composante de l'organisme et chaque système, qu'il soit
-            malade ou sain, a un type de réponse spécifique à de faibles
+            Chaque composante de l&apos;organisme et chaque système, qu&apos;il
+            soit malade ou sain, a un type de réponse spécifique à de faibles
             stimulations extérieures. Ce modèle réactionnel permet de tirer des
             conclusions très précises sur votre état énergétique actuel et sur
             le fonctionnement énergétique des organes examinés pour réaliser des

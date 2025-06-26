@@ -12,7 +12,7 @@ export default function page() {
         </h1>
         <div className="space-y-5">
           <h2 className="text-2xl font-semibold">
-            Qu'est-ce que le soin aux ventouses ?
+            Qu&apos;est-ce que le soin aux ventouses ?
           </h2>
           <p className="text-justify  font-light">
             Le soin aux ventouses est une technique ancestrale de thérapie
@@ -49,7 +49,8 @@ export default function page() {
                 className="w-full h-auto object-cover rounded-[3rem] shadow-lg"
               />
               <span className="relative left-5 top-1 max-lg:text-sm  font-light">
-                La chaleur retire l'oxygène qui permet ensuite l'adhésion.
+                La chaleur retire l&apos;oxygène qui permet ensuite
+                l&apos;adhésion.
               </span>
             </div>
           </div>
@@ -60,8 +61,8 @@ export default function page() {
           </h2>
           <p className="text-justify font-light">
             Le soin aux ventouses est une technique ancestrale qui ne se limite
-            pas à la relaxation : c'est un véritable traitement naturel pour
-            diverses pathologies. En créant une succion sur la peau, les
+            pas à la relaxation : c&apos;est un véritable traitement naturel
+            pour diverses pathologies. En créant une succion sur la peau, les
             ventouses stimulent la circulation sanguine et lymphatique, ce qui
             aide à soulager les douleurs, libérer les tensions et favoriser
             l’élimination des toxines. Ce soin est particulièrement recommandé
@@ -77,8 +78,8 @@ export default function page() {
           <p className="text-justify font-light">
             Alliant efficacité thérapeutique et bien-être, le soin aux ventouses
             permet de soulager de nombreuses pathologies. Il est reconnu pour
-            son action sur les douleurs articulaires, comme l'arthrose et les
-            rhumatismes, ainsi que sur les douleurs nerveuses, comme les
+            son action sur les douleurs articulaires, comme l&apos;arthrose et
+            les rhumatismes, ainsi que sur les douleurs nerveuses, comme les
             névralgies et la sciatique. Ce traitement est également très
             bénéfique pour les douleurs dorsales et musculaires, offrant un
             soulagement profond et durable.

@@ -12,21 +12,22 @@ export default function page() {
         </h1>
         <div className="space-y-5">
           <h2 className="text-2xl font-semibold">
-            Qu’est-ce que le message thérapeutique ?
+            Qu&apos;est-ce que le message thérapeutique ?
           </h2>
           <p className="text-justify  font-light">
             Le massage thérapeutique est sans doute la méthode la plus prisée
-            dans le milieu des médecines naturelles. Sa pratique s'étend à un
-            grand nombre d'individus, des très jeunes enfants aux personnes
-            âgées, que l'on hésiterait à confier aux soins plus vigoureux de
-            pratiques comme la chiropratique, par exemple. Certains cabinets de
-            massage se spécialisent même dans le traitement des animaux
-            domestiques souffrants de malformations ou de douleurs arthritiques.
+            dans le milieu des médecines naturelles. Sa pratique s&apos;étend à
+            un grand nombre d&apos;individus, des très jeunes enfants aux
+            personnes âgées, que l&apos;on hésiterait à confier aux soins plus
+            vigoureux de pratiques comme la chiropratique, par exemple. Certains
+            cabinets de massage se spécialisent même dans le traitement des
+            animaux domestiques souffrants de malformations ou de douleurs
+            arthritiques.
           </p>
           <p className="text-justify font-light">
-            Bien qu'également réconfortant, le massage thérapeutique s’oppose au
-            massage de bien-être. Il doit être effectué par une personne
-            compétente : le thérapeute professionnel et peut porter sur
+            Bien qu&apos;également réconfortant, le massage thérapeutique
+            s&apos;oppose au massage de bien-être. Il doit être effectué par une
+            personne compétente : le thérapeute professionnel et peut porter sur
             certaines zones précises du corps ou sur le corps entier.
           </p>
           <div className="flex max-md:flex-col gap-10 w-full">
@@ -64,14 +65,15 @@ export default function page() {
             Pourquoi un massage thérapeutique ?
           </h2>
           <p className="text-justify font-light">
-            Un massage thérapeutique ne s’apparente en aucun cas à un luxe :
-            c’est une nécessité à laquelle il est conseillé d’avoir recours. Par
-            des pressions effectuées sur les parties à traitées ou sur
-            l’intégralité du corps, ce type de massage peut, en effet,{' '}
+            Un massage thérapeutique ne s&apos;apparente en aucun cas à un luxe
+            : c&apos;est une nécessité à laquelle il est conseillé d’avoir
+            recours. Par des pressions effectuées sur les parties à traitées ou
+            sur l&apos;intégralité du corps, ce type de massage peut, en effet,{' '}
             <strong>contribuer à optimiser la guérison d’une personne</strong>{' '}
-            tout en étant <strong>un remède 100% naturel</strong> qui n'engendre
-            pas d'effets secondaires. Il provoque des effets bénéfiques
-            puissants sur les articulations ainsi que la circulation sanguine.
+            tout en étant <strong>un remède 100% naturel</strong> qui
+            n&apos;engendre pas d&apos;effets secondaires. Il provoque des
+            effets bénéfiques puissants sur les articulations ainsi que la
+            circulation sanguine.
           </p>
         </div>
         <div className="space-y-5">

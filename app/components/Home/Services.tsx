@@ -1,4 +1,3 @@
-import { ShineBorder } from '@/components/magicui/shine-border';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -11,8 +10,8 @@ export default function Services() {
         <h2 className="text-6xl text-[#C3B4A4] font-semibold ">Massages</h2>
         <p className="text-center mx-auto max-w-3xl text-lg">
           Découvrez mes divers types de massages relaxants pour apaiser le corps
-          et l'esprit. Chaque massage est conçu pour vous offrir une expérience
-          unique de bien-être.
+          et l&apos;esprit. Chaque massage est conçu pour vous offrir une
+          expérience unique de bien-être.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-16 gap-8 md:px-10  mt-10">
@@ -50,7 +49,7 @@ export default function Services() {
                   asChild
                   className=" py-6 px-7 rounded-full bg-white text-black"
                 >
-                  <Link href={service.slug}>Plus d'infos</Link>
+                  <Link href={service.slug}>Plus d&apos;infos</Link>
                 </Button>
 
                 <Button

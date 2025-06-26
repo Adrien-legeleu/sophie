@@ -16,14 +16,15 @@ export default function page() {
             Pourquoi un massage relaxant dynamisé à la shungite ?
           </h2>
           <p className="text-justify  font-light">
-            Le massage relaxant dynamisé à la shungite n'est pas seulement un
-            moment de détente, c’est un véritable soin holistique qui s'appuie
-            sur les vertus exceptionnelles de la shungite. Cette pierre, connue
-            pour ses propriétés purifiantes et protectrices, aide à rééquilibrer
-            les énergies tout en absorbant les ondes électromagnétiques. Ce type
-            de massage permet de relâcher les tensions, d'apaiser le corps, tout
-            en optimisant l'énergie vitale. En plus d'être un remède 100%
-            naturel, il aide à revitaliser l’organisme sans effets secondaires.
+            Le massage relaxant dynamisé à la shungite n&apos;est pas seulement
+            un moment de détente, c&apos;est un véritable soin holistique qui
+            s'appuie sur les vertus exceptionnelles de la shungite. Cette
+            pierre, connue pour ses propriétés purifiantes et protectrices, aide
+            à rééquilibrer les énergies tout en absorbant les ondes
+            électromagnétiques. Ce type de massage permet de relâcher les
+            tensions, d&apos;apaiser le corps, tout en optimisant l'énergie
+            vitale. En plus d'être un remède 100% naturel, il aide à revitaliser
+            l’organisme sans effets secondaires.
           </p>
         </div>
 
@@ -40,7 +41,7 @@ export default function page() {
           </h2>
           <p className="text-justify font-light">
             Le massage relaxant dynamisé à la Shungite est réalisé sur
-            l'ensemble du corps. Il se pratique avec{' '}
+            l&apos;ensemble du corps. Il se pratique avec{' '}
             <strong>
               une huile végétale de première qualité dynamisée à la pierre de
               Shungite.
@@ -48,7 +49,7 @@ export default function page() {
             Le massage relaxant est{' '}
             <strong>
               composé de manœuvres douces de pétrissages des muscles,
-              d'effleurages, de pressions et de lissages fluides.
+              d&apos;effleurages, de pressions et de lissages fluides.
             </strong>{' '}
             Les gestes sont{' '}
             <strong>
@@ -60,11 +61,11 @@ export default function page() {
             À l’arrivée vous êtes invité(e) à discuter quelques instants, le
             temps d’en savoir plus sur vous, votre état de stress, les tensions
             que vous pouvez ressentir au quotidien ou dans des situations bien
-            précises, comme au travail. Après cette étape, j'adapte l’intensité
-            de mes manœuvres et{' '}
+            précises, comme au travail. Après cette étape, j&apos;adapte
+            l’intensité de mes manœuvres et{' '}
             <strong>les zones du corps sur lesquelles il faut insister.</strong>{' '}
             Le massage relaxant se pratique avec des huiles essentielles
-            d'origine suisse et la séance se termine par un petit temps de
+            d&apos;origine suisse et la séance se termine par un petit temps de
             repos, le temps pour vous de retrouver vos esprits.
           </p>
         </div>

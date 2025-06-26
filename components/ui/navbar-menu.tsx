@@ -26,7 +26,7 @@ export const MenuItem = ({
   item: string;
   children?: React.ReactNode;
   link: string;
-  isLink: Boolean;
+  isLink: boolean;
 }) => {
   return (
     <div onMouseEnter={() => setActive(item)} className="relative ">

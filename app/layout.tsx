@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`antialiased`}>
+      <body className={`${cormorant.variable} ${lora.variable} antialiased`}>
         <header>
           <Header />
         </header>
