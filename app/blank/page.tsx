@@ -18,7 +18,7 @@ export default function page() {
             alt="massage thérapeutique"
             className="w-full h-auto object-cover rounded-[3rem] shadow-lg"
           />
-          <div className="absolute top-10 left-1/2 -translate-x-1/2 py-2 px-4 rounded-3xl bg-white/80 backdrop-blur-[10px]">
+          <div className="absolute top-10 left-1/2 max-sm:text-sm -translate-x-1/2 py-2 px-4 rounded-3xl bg-white/80 backdrop-blur-[10px]">
             <a
               href="https://healthyshungite.ch/"
               className="cursor-pointer underline"
@@ -28,14 +28,16 @@ export default function page() {
             </a>
           </div>
         </div>
-        <Button
-          asChild
-          className="text-lg py-7 px-5 rounded-full bg-[#ED1C8F] hover:bg-[#ed1c8fbb] text-white"
-        >
-          <a href={'https://healthyshungite.ch/boutique-shungite/'}>
-            Notre boutique
-          </a>
-        </Button>
+        <div className="w-full flex items-center justify-center">
+          <Button
+            asChild
+            className="text-lg py-7 px-5 rounded-full bg-[#ED1C8F] hover:bg-[#ed1c8fbb] text-white"
+          >
+            <a href={'https://healthyshungite.ch/boutique-shungite/'}>
+              Notre boutique
+            </a>
+          </Button>
+        </div>
 
         <div className="space-y-5">
           <h2 className="text-2xl font-semibold">
@@ -97,7 +99,7 @@ export default function page() {
             ondes électromagnétiques sont les plus présentes au vu de la
             multitude d’appareils en activité.
           </p>
-          <div className="flex gap-20 mt-20">
+          <div className="flex max-md:flex-col max-md:items-center max-md:justify-center gap-20 mt-20">
             <div className="space-y-5 ">
               <p className="text-justify  font-light">
                 Une experte de la shungite, Régine Martino, y a consacré un
