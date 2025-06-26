@@ -102,7 +102,7 @@ export default function page() {
             Biorésonance : quels sont les résultats auxquels vous pouvez vous
             attendre ?
           </h2>
-          <ul className="space-y-4 flex-col flex overflow-x-scroll">
+          <ul className="space-y-4 flex-col flex max-xs:overflow-x-scroll">
             {resultats.map((resultat, index) => (
               <li
                 key={index}

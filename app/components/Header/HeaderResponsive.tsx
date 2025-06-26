@@ -56,7 +56,7 @@ export default function HeaderResponsive() {
                 />
               </button>
               {openDropdown === 'soins' && (
-                <ul className="mt-2 pl-4 text-center space-y-2 text-sm">
+                <ul className="mt-2 pl-4 text-center space-y-4 text-sm">
                   <li>
                     <Link
                       href="/massage-therapeutique"
@@ -114,7 +114,7 @@ export default function HeaderResponsive() {
                 />
               </button>
               {openDropdown === 'apropos' && (
-                <ul className="mt-2 pl-4 text-center space-y-2 text-sm">
+                <ul className="mt-2 pl-4 text-center space-y-4 text-sm">
                   <li>
                     <Link href="/sophie-deneriaz" onClick={closeMenuToggle}>
                       Sophie Dénériaz
