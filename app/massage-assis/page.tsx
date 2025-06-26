@@ -51,7 +51,7 @@ export default function page() {
                 <p className="text-justify font-light">
                   Le massage assis en entreprise offre une multitude de
                   bienfaits tant pour les employés que pour l&apos;entreprise
-                  elle-même. Tout d'abord, il aide à réduire le stress et
+                  elle-même. Tout d&apos;abord, il aide à réduire le stress et
                   l&apos;anxiété, ce qui se traduit par une meilleure
                   concentration et une augmentation de la productivité. En
                   soulageant les douleurs musculaires, il contribue également à

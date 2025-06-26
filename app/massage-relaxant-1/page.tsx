@@ -18,13 +18,13 @@ export default function page() {
           <p className="text-justify  font-light">
             Le massage relaxant dynamisé à la shungite n&apos;est pas seulement
             un moment de détente, c&apos;est un véritable soin holistique qui
-            s'appuie sur les vertus exceptionnelles de la shungite. Cette
+            s&apos;appuie sur les vertus exceptionnelles de la shungite. Cette
             pierre, connue pour ses propriétés purifiantes et protectrices, aide
             à rééquilibrer les énergies tout en absorbant les ondes
             électromagnétiques. Ce type de massage permet de relâcher les
-            tensions, d&apos;apaiser le corps, tout en optimisant l'énergie
-            vitale. En plus d'être un remède 100% naturel, il aide à revitaliser
-            l’organisme sans effets secondaires.
+            tensions, d&apos;apaiser le corps, tout en optimisant l&apos;énergie
+            vitale. En plus d&apos;être un remède 100% naturel, il aide à
+            revitaliser l’organisme sans effets secondaires.
           </p>
         </div>
 

@@ -88,7 +88,7 @@ export default function page() {
         </div>
 
         <p className="text-justify font-light">
-          Allongé(e), vous n&apos;avez plus qu'à vous relaxer en pensant
+          Allongé(e), vous n&apos;avez plus qu&apos;à vous relaxer en pensant
           exclusivement à votre bien-être durant les 30 à 40 minutes de
           traitement.{' '}
           <strong>
