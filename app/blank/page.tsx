@@ -99,7 +99,7 @@ export default function page() {
             ondes électromagnétiques sont les plus présentes au vu de la
             multitude d’appareils en activité.
           </p>
-          <div className="flex max-md:flex-col max-md:items-center max-md:justify-center gap-20 mt-20">
+          <div className="flex max-md:flex-col-reverse max-md:items-center max-md:justify-center gap-20 mt-20">
             <div className="space-y-5 ">
               <p className="text-justify  font-light">
                 Une experte de la shungite, Régine Martino, y a consacré un
