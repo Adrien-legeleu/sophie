@@ -4,7 +4,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import React, { useState } from 'react';
 
-export default function page() {
+export default function Page() {
   const [prenom, setPrenom] = useState('');
   const [tel, setTel] = useState('');
   const [email, setEmail] = useState('');

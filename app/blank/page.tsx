@@ -39,7 +39,7 @@ export default function page() {
 
         <div className="space-y-5">
           <h2 className="text-2xl font-semibold">
-            Qu'est-ce que la Shungite ?
+            Qu&apos;est-ce que la Shungite ?
           </h2>
           <p className="text-justify  font-light">
             La Shungite est une substance minérale composée de carbone organique
@@ -165,7 +165,7 @@ export default function page() {
               className="w-full h-auto object-cover rounded-[3rem] shadow-lg"
             />
             <span className="relative left-5 max-md:text-sm top-1 font-light">
-              Plaques de Shungite neutralisantes contre l'électrosmog.
+              Plaques de Shungite neutralisantes contre l&apos;électrosmog.
             </span>
           </div>
           <div className="basis-[60%] space-y-10">
@@ -247,17 +247,17 @@ export default function page() {
             De plus, des séances sont vivement conseillées pour les personnes
             hypersensibles aux divers rayonnements. Que ce soient les ondes
             électromagnétiques émisent par les antennes, par nos téléphones,
-            wifi, télévisions ou encore relais d'opérateurs téléphoniques à
+            wifi, télévisions ou encore relais d&apos;opérateurs téléphoniques à
             proximité.
           </p>
           <p className="text-justify  font-light">
             Enfin, ses effets bénéfiques sont également reconnus dans le monde
             des sportifs. Que ce soit avant l’effort pour augmenter la puissance
-            d’endurance et de performance ou alors après l’entraînement dans le
-            cadre d’une récupération cellulaire active.
+            d&apos;endurance et de performance ou alors après l’entraînement
+            dans le cadre d&apos;une récupération cellulaire active.
           </p>
           <p className="text-justify  font-light">
-            Il est opportun de compléter ces moments d’exception par des
+            Il est opportun de compléter ces moments d&apos;exception par des
             massages thérapeutiques ou relaxant de même que par une thérapie de
             Biorésonance.
           </p>

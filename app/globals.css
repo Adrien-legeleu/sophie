@@ -144,6 +144,9 @@ body,
 html {
   font-family: var(--font-lora);
 }
+strong {
+  @apply font-medium;
+}
 
 @theme inline {
   --animate-marquee: marquee var(--duration) infinite linear;
