@@ -5,9 +5,9 @@ import React from 'react';
 
 export default function page() {
   return (
-    <div className="bg-gradient-to-b from-transparent to-[#ee818368] py-40">
+    <div className="bg-gradient-to-b  px-5 from-transparent to-[#ee818368] py-40">
       <div className="space-y-12 text-lg tracking-wide  max-w-5xl  mx-auto">
-        <h1 className="text-6xl text-center text-[#C3B4A4]">
+        <h1 className="lg:text-6xl sm:text-5xl text-4xl text-center text-[#C3B4A4]">
           MASSAGE RELAXANT <br />
           DYNAMISÉ À LA SHUNGITE
         </h1>
@@ -93,7 +93,7 @@ export default function page() {
             asChild
             className=" py-8 px-10 text-lg  rounded-full bg-[#ED1C8F] hover:bg-[#ed1c8fbb] text-white"
           >
-            <Link href="/contact"> Réservez un massage thérapeutique</Link>
+            <Link href="/contact"> Vous voulez vous relaxer ?</Link>
           </Button>
         </div>
       </div>

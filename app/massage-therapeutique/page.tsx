@@ -5,9 +5,9 @@ import React from 'react';
 
 export default function page() {
   return (
-    <div className="bg-gradient-to-b from-transparent to-[#ee818368] py-40">
+    <div className="bg-gradient-to-b px-5 from-transparent to-[#ee818368] py-40">
       <div className="space-y-12 text-lg tracking-wide  max-w-5xl  mx-auto">
-        <h1 className="text-6xl text-center text-[#C3B4A4]">
+        <h1 className="lg:text-6xl sm:text-5xl text-4xl text-center text-[#C3B4A4]">
           MASSAGE THÉRAPEUTIQUE
         </h1>
         <div className="space-y-5">
@@ -29,7 +29,7 @@ export default function page() {
             compétente : le thérapeute professionnel et peut porter sur
             certaines zones précises du corps ou sur le corps entier.
           </p>
-          <div className="flex gap-10 w-full">
+          <div className="flex max-md:flex-col gap-10 w-full">
             <div className="w-full">
               <Image
                 src={
@@ -40,7 +40,7 @@ export default function page() {
                 alt="massage thérapeutique"
                 className="w-full h-auto object-cover rounded-[3rem] shadow-lg"
               />
-              <span className="relative left-5 top-1 font-light">
+              <span className="relative max-md:text-sm md:left-5 top-1 font-light">
                 Pressions exercées pour relâcher les contractions.
               </span>
             </div>
@@ -52,7 +52,7 @@ export default function page() {
                 alt="massage thérapeutique"
                 className="w-full h-auto object-cover rounded-[3rem] shadow-lg"
               />
-              <span className="relative left-5 top-1 font-light">
+              <span className="relative  max-md:text-sm md:left-5 top-1 font-light">
                 Pressions pour optimiser le fonctionnement de la circulation
                 lymphatique.
               </span>
@@ -117,7 +117,7 @@ export default function page() {
             asChild
             className=" py-8 px-10 text-lg  rounded-full bg-[#ED1C8F] hover:bg-[#ed1c8fbb] text-white"
           >
-            <Link href="/contact"> Réservez un massage thérapeutique</Link>
+            <Link href="/contact"> Réservez un massage </Link>
           </Button>
         </div>
       </div>

@@ -5,7 +5,7 @@ import React from 'react';
 
 export default function page() {
   return (
-    <div className="bg-gradient-to-b from-transparent to-[#ee818368] py-40">
+    <div className="bg-gradient-to-b from-transparent to-[#ee818368] px-5 py-40">
       <div className="space-y-12 text-lg tracking-wide  max-w-5xl  mx-auto">
         <h1 className="text-6xl text-center text-[#C3B4A4]">
           SOIN AUX VENTOUSES
@@ -26,7 +26,7 @@ export default function page() {
             secondaires majeurs.
           </p>
 
-          <div className="flex gap-10 w-full">
+          <div className="flex max-md:flex-col gap-10 w-full">
             <div className="w-full">
               <Image
                 src={'/soin/image massage avec ampoule.avif'}
@@ -35,7 +35,7 @@ export default function page() {
                 alt="massage thérapeutique"
                 className="w-full h-auto object-cover rounded-[3rem] shadow-lg"
               />
-              <span className="relative left-5 top-1 font-light">
+              <span className="relative left-5 top-1 max-lg:text-sm font-light">
                 Pose de ventouses le long de la colonne vertébrale pour détendre
                 cervicales, dorsales et lombaires.
               </span>
@@ -48,7 +48,7 @@ export default function page() {
                 alt="massage thérapeutique"
                 className="w-full h-auto object-cover rounded-[3rem] shadow-lg"
               />
-              <span className="relative left-5 top-1 font-light">
+              <span className="relative left-5 top-1 max-lg:text-sm  font-light">
                 La chaleur retire l'oxygène qui permet ensuite l'adhésion.
               </span>
             </div>
@@ -104,7 +104,7 @@ export default function page() {
             asChild
             className=" py-8 px-10 text-lg  rounded-full bg-[#ED1C8F] hover:bg-[#ed1c8fbb] text-white"
           >
-            <Link href="/contact"> Réservez un massage thérapeutique</Link>
+            <Link href="/contact"> Réservez un soin</Link>
           </Button>
         </div>
       </div>

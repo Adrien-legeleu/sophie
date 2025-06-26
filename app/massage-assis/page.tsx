@@ -5,9 +5,11 @@ import React from 'react';
 
 export default function page() {
   return (
-    <div className="bg-gradient-to-b from-transparent to-[#ee818368] py-40">
+    <div className="bg-gradient-to-b from-transparent px-5 to-[#ee818368] py-40">
       <div className="space-y-12 text-lg tracking-wide  max-w-5xl  mx-auto">
-        <h1 className="text-6xl text-center text-[#C3B4A4]">MASSAGE ASSIS</h1>
+        <h1 className="lg:text-6xl sm:text-5xl text-4xl text-center text-[#C3B4A4]">
+          MASSAGE ASSIS
+        </h1>
         <div className="space-y-5">
           <h2 className="text-2xl font-semibold">
             Pourquoi opter pour un massage assis en entreprise ?
@@ -26,8 +28,8 @@ export default function page() {
             productive.
           </p>
 
-          <div className="flex gap-10 pt-10">
-            <div className="flex flex-col basis-[40%] gap-10 w-full">
+          <div className="flex max-md:flex-col max-md:items-center max-md:justify-center gap-10 pt-10">
+            <div className="flex flex-col basis-[40%] md:gap-10 gap-5 w-full">
               <Image
                 src={'/soin/Sophie_Dénériaz_-_Massage_en_entreprise_.avif'}
                 width={1000}
@@ -35,7 +37,7 @@ export default function page() {
                 alt="massage thérapeutique"
                 className="w-full h-auto object-cover rounded-[3rem] shadow-lg"
               />
-              <span className="relative left-5 top-1 font-light">
+              <span className="relative left-5 max-md:text-sm top-1 font-light">
                 Massage assis sur chaise ergonomique d'une durée de 15 minutes.
                 Le massé conserve ses vêtements, aucune huile n'est utilisée.
               </span>
@@ -85,7 +87,7 @@ export default function page() {
             asChild
             className=" py-8 px-10 text-lg  rounded-full bg-[#ED1C8F] hover:bg-[#ed1c8fbb] text-white"
           >
-            <Link href="/contact"> Réservez un massage thérapeutique</Link>
+            <Link href="/contact"> Réservez un message</Link>
           </Button>
         </div>
       </div>

@@ -5,11 +5,11 @@ import React from 'react';
 
 export default function page() {
   return (
-    <div className="bg-gradient-to-b from-transparent to-[#ee818368] py-40">
+    <div className="bg-gradient-to-b from-transparent px-5 to-[#ee818368] py-40">
       <div className="space-y-12 text-lg tracking-wide  max-w-5xl  mx-auto">
         <h1 className="text-6xl text-center text-[#C3B4A4]">SOPHIE DÉNÉRIAZ</h1>
-        <div className="flex items-center gap-20">
-          <div className="w-full mx-auto">
+        <div className="flex max-lg:flex-col max-lg:justify-center items-center gap-20">
+          <div className="lg:w-full w-64 mx-auto">
             <Image
               src={'/sophie profil.avif'}
               width={1000}
@@ -31,17 +31,18 @@ export default function page() {
               Aujourd’hui, en tant que massothérapeute certifiée, je vous
               accompagne pour :
             </p>
-            <ul className="space-y-4 flex-col flex ">
+            <ul className="space-y-4 flex-col flex flex-wrap justify-center items-center">
               {accompagnements.map((accomp, index) => (
                 <li
                   key={index}
-                  className="inline-flex w-max px-4 py-2 items-center gap-2 rounded-full bg-white shadow-md"
+                  className="flex w-full max-w-xs px-4 py-2 items-center gap-2 max-sm:text-sm rounded-full bg-white shadow-md break-words text-center"
                 >
                   <div className="h-2 w-2 bg-[#ED1C8F] rounded-full" />
                   {accomp}
                 </li>
               ))}
             </ul>
+
             <p className="text-justify  font-light">
               Chaque séance est personnalisée selon vos besoins, que vous
               recherchiez un massage relaxant, thérapeutique ou plus dynamique.

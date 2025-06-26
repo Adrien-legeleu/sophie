@@ -5,9 +5,9 @@ import React from 'react';
 
 export default function page() {
   return (
-    <div className="bg-gradient-to-b from-transparent to-[#ee818368] py-40">
+    <div className="bg-gradient-to-b px-5 from-transparent to-[#ee818368] py-40">
       <div className="space-y-12 text-lg tracking-wide  max-w-5xl  mx-auto">
-        <h1 className="text-6xl text-center text-[#C3B4A4]">
+        <h1 className=" lg:text-6xl sm:text-5xl text-4xl text-center text-[#C3B4A4]">
           RÉFLEXOLOGIE PLANTAIRE
         </h1>
         <div className="space-y-5">
@@ -33,11 +33,11 @@ export default function page() {
           <h2 className="text-2xl font-semibold">
             Les divers bienfaits de la réflexologie
           </h2>
-          <ul className="grid grid-cols-2 gap-5 ">
+          <ul className="lg:grid  flex flex-wrap justify-center items-center lg:grid-cols-2 gap-5 ">
             {bienfaits.map((bienfait, index) => (
               <li
                 key={index}
-                className="inline-flex w-max px-4 py-2 items-center gap-2 rounded-full bg-white shadow-md"
+                className="inline-flex w-max px-4 py-2 items-center gap-2 max-sm:text-sm rounded-full bg-white shadow-md"
               >
                 <div className="h-2 w-2 bg-[#ED1C8F] rounded-full" />
                 {bienfait}
@@ -95,7 +95,7 @@ export default function page() {
             asChild
             className=" py-8 px-10 text-lg  rounded-full bg-[#ED1C8F] hover:bg-[#ed1c8fbb] text-white"
           >
-            <Link href="/contact"> Réservez un massage thérapeutique</Link>
+            <Link href="/contact"> Réservez un massage </Link>
           </Button>
         </div>
       </div>

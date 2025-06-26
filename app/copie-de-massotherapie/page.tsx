@@ -5,9 +5,9 @@ import React from 'react';
 
 export default function page() {
   return (
-    <div className="bg-gradient-to-b from-transparent to-[#ee818368] py-40">
+    <div className="bg-gradient-to-b from-transparent to-[#ee818368] px-5 py-40">
       <div className="space-y-12 text-lg tracking-wide  max-w-5xl  mx-auto">
-        <h1 className="text-6xl text-center text-[#C3B4A4]">
+        <h1 className="lg:text-6xl sm:text-5xl text-4xl text-center text-[#C3B4A4]">
           MASSAGE CLASSIQUE <br />
           AUX HUILES ESSENTIELLES
         </h1>
@@ -30,7 +30,7 @@ export default function page() {
             des zones spécifiques ou peut englober l’ensemble du corps.
           </p>
 
-          <div className="flex gap-10 pt-10">
+          <div className="flex max-md:flex-col max-md:items-center max-md:justify-center gap-10 pt-10">
             <div className="flex flex-col basis-[40%] gap-10 w-full">
               <Image
                 src={'/soin/massotherapie huile.avif'}
@@ -94,7 +94,7 @@ export default function page() {
             asChild
             className=" py-8 px-10 text-lg  rounded-full bg-[#ED1C8F] hover:bg-[#ed1c8fbb] text-white"
           >
-            <Link href="/contact"> Réservez un massage thérapeutique</Link>
+            <Link href="/contact"> Envie d'un massage ?</Link>
           </Button>
         </div>
       </div>

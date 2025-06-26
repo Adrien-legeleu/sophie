@@ -1,10 +1,15 @@
 'use client';
 
-import Review1 from '@/public/sophie profil.avif';
-// import Review2 from '@/public/images/logo/jean-cristophe-Lelandais.jpeg';
-// import Review3 from '@/public/images/logo/logo-lelandais.png';
-// import Review4 from '@/public/images/logo/hl-horner-logo.jpg';
-// import Review5 from '@/public/images/logo/logo-lora.png';
+import Mathilde from '@/public/avis/mathilde fornay profil.png';
+import Martine from '@/public/avis/Martine Aubert profil.png';
+import Veronique from '@/public/avis/veronique profil.png';
+import Dylan from '@/public/avis/dylan rocha profil.png';
+import Nina from '@/public/avis/nina profil.png';
+import AnneClaire from '@/public/avis/anne claire profil.png';
+import Suzana from '@/public/avis/suzana filipe profil.png';
+import Zoe from '@/public/avis/zoe profil.png';
+import Patrick from '@/public/avis/patrick profil.png';
+import Jenna from '@/public/avis/jenna profil.png';
 
 import { motion } from 'framer-motion';
 import Image, { StaticImageData } from 'next/image';
@@ -12,71 +17,61 @@ import Marquee from '@/components/ui/marquee';
 
 interface ReviewType {
   name: string;
-  role: string;
+
   text: string;
   image: string | StaticImageData;
 }
 
 const reviews: ReviewType[] = [
   {
-    name: 'L’Ora Fashion Paris',
-    role: 'Optimisation Instagram - Google Shopping',
-    text: 'Grâce à Ikovaline, nous avons considérablement augmenté notre visibilité en ligne. Leur expertise sur Instagram et Google Shopping a dynamisé nos ventes.',
-    image: Review1,
+    name: 'Mathilde Fornay',
+    text: "Si vous cherchez un endroit où vous reposer, profiter de douceurs et de bienveillance, c'est ici qu'il faut aller ! Accueilli par une femme rayonnante de bienveillance, vous découvrirez un cadre idyllique. Chaque instant est une parenthèse enchantée dédiée à la relaxation. Elle est à l'écoute de vos besoins et adapte chaque séance à vos préférences. Une expérience vraiment exceptionnelle !",
+    image: Mathilde,
   },
   {
-    name: 'L’Émotion',
-    role: 'Gestion Google My Business - Consulting',
-    text: 'Ils ont transformé notre image en ligne et apporté des conseils stratégiques pour développer notre activité. Une équipe très réactive !',
-    image: 'https://avatar.vercel.sh/rauchg',
+    name: 'Martine Aubert',
+    text: "Sophie à des doigts en or! Très à l'écoute & professionnelle.Le soins au ventouses m'a été très bénéfique.vraiment je recommande ! Elle m'a beaucoup aidé dans ma remise en forme.",
+    image: Martine,
   },
   {
-    name: 'Lelandais Fermetures',
-    role: 'Gestion Google My Business - Leads locaux',
-    text: 'Depuis qu’Ikovaline gère notre Google My Business, nous recevons beaucoup plus de demandes locales pertinentes. Excellent service !',
-    image: Review1,
+    name: 'Véronique Bongard-Gabriel',
+    text: 'Merci ma Sophie pour ton massage et le soins avec les ventouses. Incroyable tu es un anges. Magnifiques le bien pour le corps. Merci 💋💋💋😍❤️',
+    image: Veronique,
   },
   {
-    name: 'Frewinglas',
-    role: 'Création site web - SEO - LinkedIn',
-    text: 'Le site qu’ils ont créé est moderne et bien référencé. Nos profils LinkedIn sont désormais des outils de prospection efficaces.',
-    image: Review1,
+    name: 'Dylan Rocha',
+    text: 'Je recommande le massage ventouse ! Très relaxant 😁',
+    image: Dylan,
   },
   {
-    name: 'Need Money For Shop',
-    role: 'Création site web - Publicité - Développement commercial',
-    text: 'Ikovaline a su adapter ses services à nos besoins précis. Leur approche marketing a boosté nos campagnes publicitaires.',
-    image: 'https://avatar.vercel.sh/rauchg',
+    name: 'Nina Recupero',
+    text: 'Un bien être fabuleux Sophie est à l écoute et très passionné du bien être je recommande vivement de prendre le temps d aller la voir .',
+    image: Nina,
   },
   {
-    name: 'L’Art du Bonsaï',
-    role: 'Création site web - Contenu visuel - Publicité',
-    text: 'Leur travail créatif et stratégique a fait passer notre entreprise à un autre niveau. Nos clients adorent notre nouveau site et visuel !',
-    image: 'https://avatar.vercel.sh/rauchg',
+    name: 'Anne-Claire ROGGO',
+    text: 'Quelle plaisir de venir voir Sophie!!! Elle est tellement gentille, un accueil très agréable et elle a des mains tellement douces, et le niveau de pression de ses massages sont exactement comme j’aime! La salle est aussi très cozy, et la chaise/le lit de massage est vraiment exceptionnelle qui a vraiment fait pour moi une vraie différence des autres salons de massage! N’hésitez pas une seule seconde, vous ne regretterez pas du tout. Le cadre en plus est vraiment magnifique. Je recommande fortement!',
+    image: AnneClaire,
   },
   {
-    name: 'HL CORNER',
-    role: 'Création site web - Visibilité locale',
-    text: 'Un grand merci à Ikovaline pour notre site fonctionnel et attrayant. Nous sommes désormais plus visibles localement.',
-    image: Review1,
+    name: 'Suzana Filipe',
+    text: "Je viens de vivre une expérience incroyable avec Sophie Dénériaz, experte en massage traditionnel 💆‍♀️💫. J'avais le dos en vrac, tendu, bloqué… et après une séance entre ses mains magiques : libération totale au point que je me suis endormi😂😂😂 ! Son toucher est à la fois précis, puissant et profondément apaisant. On sent qu’elle maîtrise son art avec passion 💖. Si vous avez mal au dos, ou si vous rêvez d’un vrai moment de détente, foncez la voir. Vous ne le regretterez pas ! 👉 Merci Sophie pour ce pur moment de renaissance ✨",
+    image: Suzana,
   },
   {
-    name: 'Jardin Auto',
-    role: 'Création site web - Publicité saisonnière',
-    text: 'Leur travail nous a permis de générer plus de ventes en période de forte demande. Ils gèrent tout avec professionnalisme.',
-    image: 'https://avatar.vercel.sh/rauchg',
+    name: 'Zoé Chaubert',
+    text: 'Superbe accueil, visite et présentation des différentes offres du cabinet. Sophie est à l’écoute et transmet sa positivité tout au long de la séance. On ressent tout de suite les bienfaits du soin au ventouse et massage. Je recommande!',
+    image: Zoe,
   },
   {
-    name: 'Jean-Christophe Lelandais',
-    role: 'Accompagnement marketing - Recrutement',
-    text: 'Ikovaline a été un partenaire clé pour structurer nos besoins en marketing et en recrutement. Une équipe compétente et proactive.',
-    image: Review1,
+    name: 'Patrick Scaron',
+    text: "J'ai passé un moment très agréable la masseusse et très professionnel dans sont domaines l'endroit propre et très confortable je suis ressortie de cette séance détendu zen .. je vous remercie encore madame dénériaz",
+    image: Patrick,
   },
   {
-    name: 'Simon Corbin',
-    role: 'Stratégies marketing et commerciales sur mesure',
-    text: 'Leur approche personnalisée a eu un impact direct sur nos ventes. Ikovaline est un vrai atout pour mon entreprise.',
-    image: 'https://avatar.vercel.sh/rauchg',
+    name: 'Jenna Fantoni',
+    text: 'Sophie est une super masseuse ! Très à l’écoute, elle a une super technique de massage douce dans sa manière de faire et à la fois elle masse vraiment en profondeur. Je la recommande vivement. Merci Sophie !',
+    image: Jenna,
   },
 ];
 
@@ -89,16 +84,27 @@ const thirdColumn = reviews.slice(6, 10);
 const ReviewCard = ({
   image,
   name,
-  role,
+
   text,
 }: {
   image: string | StaticImageData;
   name: string;
-  role: string;
+
   text: string;
 }) => (
   <div className="p-10 rounded-3xl border shadow-lg shadow-primary/10 max-w-md w-full bg-white dark:bg-neutral-900">
-    <div className="mb-4 text-base">{text}</div>
+    <div
+      style={{
+        display: '-webkit-box',
+        WebkitLineClamp: 5,
+        WebkitBoxOrient: 'vertical',
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
+      }}
+      className="mb-4 text-base"
+    >
+      {text}
+    </div>
     <div className="flex items-center gap-2 mt-5">
       {typeof image === 'string' ? (
         <Image
@@ -119,9 +125,6 @@ const ReviewCard = ({
       )}
       <div className="flex flex-col ml-2">
         <div className="font-medium tracking-tight leading-5">{name}</div>
-        <div className="leading-5 opacity-60 tracking-tight text-xs">
-          {role}
-        </div>
       </div>
     </div>
   </div>

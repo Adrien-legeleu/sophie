@@ -89,6 +89,7 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
   --font-cormorant: 'Cormorant Garamond', serif;
+  --font-lora: 'Lora', serif;
 }
 
 .dark {
@@ -138,6 +139,10 @@ h1,
 h2,
 h3 {
   font-family: var(--font-cormorant);
+}
+body,
+html {
+  font-family: var(--font-lora);
 }
 
 @theme inline {

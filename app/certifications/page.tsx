@@ -17,11 +17,17 @@ export default function page() {
     setImageSrcClicked(src);
     setImageIsClicked(true);
   };
-  const closeImageClick = () => setImageIsClicked(false);
+  const closeImageClick = () => {
+    setImageIsClicked(false);
+    setInfoClicked(false);
+    setImageSrcClicked('');
+  };
   return (
     <div className=" bg-gradient-to-b from-transparent to-[#ee818368] ">
-      <div className="space-y-20 text-lg tracking-wide py-40 max-w-5xl mx-auto">
-        <h1 className="text-6xl text-center text-[#C3B4A4]">CERTIFICATIONS</h1>
+      <div className="space-y-20 text-lg tracking-wide py-40 max-w-5xl px-5 mx-auto">
+        <h1 className="lg:text-6xl sm:text-5xl text-4xl text-center text-[#C3B4A4]">
+          CERTIFICATIONS
+        </h1>
         <p className="text-center  font-light">
           Il est expressément rappelé que les thérapies naturelles ou
           alternatives sont complémentaires à la médecine conventionnelle et ne
@@ -63,7 +69,7 @@ export default function page() {
             />
             <IconArrowsMinimize
               onClick={closeImageClick}
-              className="absolute w-12 h-12 text-[#000000] top-28 right-28 cursor-pointer"
+              className="absolute sm:w-12 sm:h-12 h-8 w-8 text-[#000000] lg:top-28 lg:right-28 top-20 right-8 sm:right-20  cursor-pointer"
             />
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
@@ -78,7 +84,7 @@ export default function page() {
                 width={1000}
                 height={1000}
                 alt="certification"
-                className=" h-full w-full object-contain rounded-[3rem]"
+                className=" h-full w-full object-contain "
               />
             </motion.div>
             <div
@@ -90,7 +96,7 @@ export default function page() {
             <AnimatePresence>
               {infoClicked && (
                 <motion.div
-                  className="absolute bottom-10 left-1/2 transform -translate-x-1/2 bg-white p-6 rounded-[3rem] shadow-lg max-w-md"
+                  className="absolute bottom-10 left-1/2 transform -translate-x-1/2 bg-white p-6 rounded-[3rem] shadow-lg max-w-md w-[90%]"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: 20 }}

@@ -6,9 +6,11 @@ import { IconVideoFilled } from '@tabler/icons-react';
 
 export default function page() {
   return (
-    <div className="bg-gradient-to-b from-transparent to-[#ee818368] py-40">
+    <div className="bg-gradient-to-b px-5 from-transparent to-[#ee818368] py-40">
       <div className="space-y-12 text-lg tracking-wide  max-w-5xl  mx-auto">
-        <h1 className="text-6xl text-center text-[#C3B4A4]">BIORÉSONANCE</h1>
+        <h1 className="lg:text-6xl sm:text-5xl text-4xl text-center text-[#C3B4A4]">
+          BIORÉSONANCE
+        </h1>
         <div className="space-y-5">
           <p className="text-justify  font-light">
             La thérapie de biorésonance est un procédé thérapeutique qui utilise
@@ -56,7 +58,7 @@ export default function page() {
             toxines.
           </p>
 
-          <div className="flex gap-10 w-full">
+          <div className="flex max-sm:flex-col gap-10 w-full">
             <div className="w-full">
               <Image
                 src={'/soin/Global diagnostics bioresonance.avif'}
@@ -65,7 +67,7 @@ export default function page() {
                 alt="massage thérapeutique"
                 className="w-full h-auto object-cover rounded-[3rem] shadow-lg"
               />
-              <span className="relative left-5 top-1 font-light">
+              <span className="relative max-md:text-sm left-5 top-1 font-light">
                 Résultats des 650 mesures effectuées avant traitement.
               </span>
             </div>
@@ -77,7 +79,7 @@ export default function page() {
                 alt="massage thérapeutique"
                 className="w-full h-auto object-cover rounded-[3rem] shadow-lg"
               />
-              <span className="relative left-5 top-1 font-light">
+              <span className="relative left-5 top-1 max-md:text-sm font-light">
                 Bilan de santé énergétique. Électrodes aux chevilles pour les
                 prises de mesures.
               </span>
@@ -100,11 +102,11 @@ export default function page() {
             Biorésonance : quels sont les résultats auxquels vous pouvez vous
             attendre ?
           </h2>
-          <ul className="space-y-4 flex-col flex ">
+          <ul className="space-y-4 flex-col flex overflow-x-scroll">
             {resultats.map((resultat, index) => (
               <li
                 key={index}
-                className="inline-flex w-max px-4 py-2 items-center gap-2 rounded-full bg-white shadow-md"
+                className="inline-flex max-sm:text-sm w-max px-4 py-2 items-center gap-2 rounded-full bg-white shadow-md"
               >
                 <div className="h-2 w-2 bg-[#ED1C8F] rounded-full" />
                 {resultat}
@@ -123,7 +125,7 @@ export default function page() {
             les allergies.
           </p>
         </div>
-        <div className="w-1/2 mx-auto relative hover:scale-110 duration-300 cursor-pointer">
+        <div className="lg:w-1/2 w-full mx-auto relative hover:scale-110 duration-300 cursor-pointer">
           <a
             href="https://www.rts.ch/play/tv/19h30/video/les-taux-de-pollen-sont-tres-eleves-a-cause-des-temperatures-clementes-et-des-pluies-recentes?urn=urn:rts:video:6721265"
             target="_blank"

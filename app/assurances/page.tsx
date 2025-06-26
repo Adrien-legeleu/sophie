@@ -5,9 +5,9 @@ import React from 'react';
 
 export default function page() {
   return (
-    <div className=" bg-gradient-to-b from-transparent to-[#ee818368] ">
+    <div className=" bg-gradient-to-b px-5 from-transparent  to-[#ee818368] ">
       <div className="space-y-20 text-lg tracking-wide py-40 max-w-5xl mx-auto">
-        <h1 className="text-6xl text-center text-[#C3B4A4]">
+        <h1 className="lg:text-6xl sm:text-5xl text-4xl text-center text-[#C3B4A4]">
           RECONNAISSANCE <br />
           DES ASSURANCES
         </h1>
@@ -54,6 +54,7 @@ export default function page() {
                   >
                     <a
                       href={assurance.link}
+                      target="_blank"
                       className="relative flex text-sm items-center justify-center gap-2"
                     >
                       <div className="h-2 w-2 bg-[#ED1C8F] rounded-full" />
@@ -121,21 +122,19 @@ const assurances = [
 
 const groupMutuelles = [
   {
-    title: 'AVENIR Assurance Maladie SA (Avenir, CMBB, St. Moritz)',
+    title: 'AVENIR Assurance Maladie SA ',
     link: 'https://www.groupemutuel.ch/fr/clients-prives/avenir.html',
   },
   {
-    title:
-      'PHILOS Assurance Maladie SA (Philos, Avantis, Fonction publique, Troistorrents, Panorama, EOS)',
+    title: 'PHILOS Assurance Maladie SA',
     link: 'https://www.groupemutuel.ch/fr/clients-prives/philos.html',
   },
   {
-    title:
-      'Easy Sana Assurances Maladie SA (Caisse vaudoise, Hermes, Easysana)',
+    title: 'Easy Sana Assurances Maladie SA ',
     link: 'https://www.groupemutuel.ch/fr/clients-prives/easysana.html',
   },
   {
-    title: 'Mutuel Assurance Maladie SA (Mutuel, Universa, Natura)',
+    title: 'Mutuel Assurance Maladie SA ',
     link: 'https://www.groupemutuel.ch/fr/clients-prives/mutuel.html',
   },
 ];

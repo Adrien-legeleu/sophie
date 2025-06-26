@@ -17,6 +17,7 @@ import {
 
 import { HoveredLink, Menu, MenuItem } from '@/components/ui/navbar-menu';
 import { Button } from '@/components/ui/button';
+import HeaderResponsive from './HeaderResponsive';
 
 export function Header({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
@@ -125,6 +126,7 @@ export function Header({ className }: { className?: string }) {
           </div>
         </Menu>
       </div>
+      <HeaderResponsive />
     </>
   );
 }

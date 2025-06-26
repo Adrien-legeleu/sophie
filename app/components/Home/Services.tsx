@@ -6,7 +6,7 @@ import React from 'react';
 
 export default function Services() {
   return (
-    <div className="flex flex-col py-20 items-center bg-gradient-to-b from-transparent to-[#ee818368] justify-center gap-5 p-10 text-center">
+    <div className="flex flex-col py-20 items-center bg-gradient-to-b from-transparent to-[#ee818368] justify-center gap-5 md:p-10 px-5 text-center">
       <h2 className="text-6xl text-[#C3B4A4] font-semibold ">Massages</h2>
       <p className="text-center mx-auto max-w-3xl text-lg">
         Découvrez mes divers types de massages relaxants pour apaiser le corps
@@ -14,7 +14,7 @@ export default function Services() {
         unique de bien-être.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 px-10 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-16 gap-8 md:px-10  mt-10">
         {services.map((service, index) => (
           <Link
             href={service.slug}
