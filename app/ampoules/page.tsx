@@ -7,7 +7,7 @@ export default function page() {
   return (
     <div className="bg-gradient-to-b from-transparent to-[#ee818368] px-5 py-40">
       <div className="space-y-12 text-lg tracking-wide  max-w-5xl  mx-auto">
-        <h1 className="text-6xl text-center text-[#C3B4A4]">
+        <h1 className="lg:text-6xl sm:text-5xl text-4xl text-center text-[#C3B4A4]">
           SOIN AUX VENTOUSES
         </h1>
         <div className="space-y-5">

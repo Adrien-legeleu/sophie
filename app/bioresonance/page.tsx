@@ -102,14 +102,14 @@ export default function page() {
             Biorésonance : quels sont les résultats auxquels vous pouvez vous
             attendre ?
           </h2>
-          <ul className="space-y-4 flex-col flex max-xs:overflow-x-scroll">
-            {resultats.map((resultat, index) => (
+          <ul className="space-y-4 flex-colflex flex-wrap justify-center items-start max-lg:items-center">
+            {resultats.map((r, index) => (
               <li
                 key={index}
-                className="inline-flex max-sm:text-sm w-max px-4 py-2 items-center gap-2 rounded-full bg-white shadow-md"
+                className="flex max-sm:max-w-sm sm:w-max px-4 py-2 items-center gap-2 max-sm:text-sm rounded-full bg-white shadow-md  text-center"
               >
                 <div className="h-2 w-2 bg-[#ED1C8F] rounded-full" />
-                {resultat}
+                {r}
               </li>
             ))}
           </ul>
