@@ -46,9 +46,8 @@ export default function page() {
             </strong>
           </p>
           <p className="text-justify  font-light">
-            En plus de la fonction de mesure et d&apos;analyse, votre thérapeute
-            vous établit une proposition de traitement en{' '}
-            <strong>douceur, simple et indolore,</strong>
+            En plus de la fonction de mesure et d&apos;analyse, je vous propose
+            un traitement en <strong>douceur, simple et indolore,</strong>
             parfaitement adaptée aux besoins de votre organisme.
           </p>
           <p className="text-justify  font-light">
