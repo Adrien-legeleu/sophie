@@ -147,10 +147,10 @@ export default function page() {
           </h2>
           <p className="text-justify font-light">
             En soutien aux personnes en traitement médicamenteux
-            (chimiothérapies, radiothérapies, traitements hormonaux, etc.) · Aux
-            personnes souffrant d’allergies, de fatigue chronique, de baisse de
-            rendement, de malaises indéfinis · Aux personnes en bonne santé
-            désirant maintenir leur vitalité
+            (chimiothérapies, radiothérapies, traitements hormonaux, etc.){' '}
+            <br /> · Aux personnes souffrant d’allergies, de fatigue chronique,
+            de baisse de rendement, de malaises indéfinis <br /> · Aux personnes
+            en bonne santé désirant maintenir leur vitalité
           </p>
         </div>
         <div className="space-y-5">
