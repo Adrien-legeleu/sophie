@@ -132,11 +132,20 @@ const services = [
     duration: '60 min',
   },
   {
+    title: 'Soin aux ventouses & massage classique',
+    description:
+      '30 min de ventouses suivies d’un massage aux huiles essentielles pour libérer les tensions, soulager douleurs et migraines, et améliorer la souplesse musculaire.',
+    image: '/services/soins aux ventouses.avif',
+    slug: '/soin-ventouses',
+    price: 'CHF 100',
+    duration: '60 min',
+  },
+  {
     title: 'Massage assis en entreprise',
     description:
       'Bien-être au travail, sans huile et sur vêtements. Idéal pour relâcher les tensions et se revitaliser. Un devis personnalisé peut être établi. ',
     image: '/services/entreprise chair massage.jpg',
-    slug: '/massage-assis',
+    slug: '/ampoules',
     price: 'CHF 40 / 15min',
     duration: 'CHF 700 / 20 séances',
   },
