@@ -85,7 +85,7 @@ export default function HeaderResponsive() {
                   </li>
                   <li>
                     <Link href="/massage-assis" onClick={closeMenuToggle}>
-                      Massage assis
+                      Massage assis en entreprise
                     </Link>
                   </li>
 

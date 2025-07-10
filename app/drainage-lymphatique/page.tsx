@@ -25,9 +25,9 @@ export default function page() {
           <p className="text-justify font-light">
             En aidant à désengorger les tissus et à éliminer les toxines, ce
             soin contribue à une meilleure détoxification naturelle de
-            l&apos;`organisme. Il est particulièrement indiqué en cas de jambes
-            lourdes, de rétention d’eau, de troubles circulatoires ou de
-            convalescence post-opératoire.
+            l&apos;`organisme. Il est particulièrement indiqué en cas de
+            convalescence post-opératoire, de jambes lourdes, de rétention d’eau
+            ou de troubles circulatoires.
           </p>
 
           <div className="flex max-md:flex-col gap-10 w-full">
@@ -106,6 +106,7 @@ export default function page() {
 }
 
 const bienfaitsDrainage = [
+  'Post-opératoire',
   'Stimule la circulation lymphatique',
   'Réduit les gonflements et la rétention d’eau',
   'Favorise l’élimination des toxines',

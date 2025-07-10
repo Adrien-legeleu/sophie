@@ -59,6 +59,9 @@ export function Header({ className }: { className?: string }) {
               isLink={false}
             >
               <div className="flex flex-col space-y-4 text-sm">
+                <HoveredLink href="/drainage-lymphatique">
+                  <IconDroplet stroke={2} /> Drainage lymphatique
+                </HoveredLink>
                 <HoveredLink href="/massage-therapeutique">
                   <IconStethoscope stroke={2} />
                   Massage Thérapeutique
@@ -75,10 +78,7 @@ export function Header({ className }: { className?: string }) {
                   <IconWind stroke={2} /> Soin aux ventouses
                 </HoveredLink>
                 <HoveredLink href="/massage-assis">
-                  <IconChairDirector stroke={2} /> Massage assis
-                </HoveredLink>
-                <HoveredLink href="/drainage-lymphatique">
-                  <IconDroplet stroke={2} /> Drainage lymphatique
+                  <IconChairDirector stroke={2} /> Massage assis en entreprise
                 </HoveredLink>
               </div>
             </MenuItem>
