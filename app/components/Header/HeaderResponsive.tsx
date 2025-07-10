@@ -59,6 +59,14 @@ export default function HeaderResponsive() {
                 <ul className="mt-2 pl-4 text-center space-y-4 text-sm">
                   <li>
                     <Link
+                      href="/drainage-lymphatique"
+                      onClick={closeMenuToggle}
+                    >
+                      Drainage lymphatique
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
                       href="/massage-therapeutique"
                       onClick={closeMenuToggle}
                     >
@@ -86,15 +94,6 @@ export default function HeaderResponsive() {
                   <li>
                     <Link href="/massage-assis" onClick={closeMenuToggle}>
                       Massage assis en entreprise
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link
-                      href="/drainage-lymphatique"
-                      onClick={closeMenuToggle}
-                    >
-                      Drainage lymphatique
                     </Link>
                   </li>
                 </ul>
