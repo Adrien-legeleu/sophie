@@ -13,7 +13,7 @@ export default function page() {
 
         <div className="space-y-5">
           <h2 className="text-2xl font-semibold">
-            Qu&apos;`est-ce que le drainage lymphatique ?
+            Qu&apos;est-ce que le drainage lymphatique ?
           </h2>
           <p className="text-justify font-light">
             Le drainage lymphatique est une technique de massage manuel douce et

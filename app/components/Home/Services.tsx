@@ -108,7 +108,7 @@ const services = [
     title: 'Massage relaxant dynamisé à la shungite',
     description:
       'Allie massage relaxant et propriétés protectrices de la shungite, pour une détente profonde et un regain d’énergie.',
-    slug: '/massage-relaxant-huiles-essentielles',
+    slug: '/blank',
     image: '/services/massage relaxant dynamise a la shungite.avif',
     price: 'CHF 100',
     duration: '60 min',
@@ -136,7 +136,7 @@ const services = [
     description:
       '30 min de ventouses suivies d’un massage aux huiles essentielles pour libérer les tensions, soulager douleurs et migraines, et améliorer la souplesse musculaire.',
     image: '/services/soins aux ventouses.avif',
-    slug: '/soin-ventouses',
+    slug: '/ampoules',
     price: 'CHF 100',
     duration: '60 min',
   },
@@ -145,7 +145,7 @@ const services = [
     description:
       'Bien-être au travail, sans huile et sur vêtements. Idéal pour relâcher les tensions et se revitaliser. Un devis personnalisé peut être établi. ',
     image: '/services/entreprise chair massage.jpg',
-    slug: '/ampoules',
+    slug: '/massage-assis',
     price: 'CHF 40 / 15min',
     duration: 'CHF 700 / 20 séances',
   },
@@ -159,7 +159,7 @@ const services = [
     duration: 'CHF 250 / 5 séances',
   },
   {
-    title: 'Bilan de santé biorésonance',
+    title: 'Biorésonance',
     description:
       'Technologie VitaFeld : un bilan énergétique précis sur 650 paramètres, suivi d’un traitement doux et indolore, accessible à toute la famille.',
     image: '/soin/Bilan de santé - bioresonance.avif',
