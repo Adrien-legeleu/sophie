@@ -30,7 +30,7 @@ export default function HeaderResponsive() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="fixed bg-white/80 backdrop-blur-md rounded-[3rem] shadow-lg p-10 top-20 flex justify-center items-center flex-col gap-5  left-1/2 -translate-x-1/2 w-[90%] max-w-3xl h-auto z-40"
+            className="fixed bg-white/80 backdrop-blur-md rounded-[3rem] shadow-lg p-10 top-8 flex justify-center items-center flex-col gap-5  left-1/2 -translate-x-1/2 w-[90%] max-w-3xl h-auto z-40"
           >
             <li>
               <Link
@@ -74,7 +74,10 @@ export default function HeaderResponsive() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/massage-relaxant-huiles-essentielles">
+                    <Link
+                      href="/massage-relaxant-huiles-essentielles"
+                      onClick={closeMenuToggle}
+                    >
                       Massage relaxant aux huiles essentielles
                     </Link>
                   </li>
@@ -94,6 +97,11 @@ export default function HeaderResponsive() {
                   <li>
                     <Link href="/massage-assis" onClick={closeMenuToggle}>
                       Massage assis en entreprise
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/massage-relaxant-1" onClick={closeMenuToggle}>
+                      Massage relaxant dynamisé à la shungite
                     </Link>
                   </li>
                 </ul>
@@ -159,7 +167,7 @@ export default function HeaderResponsive() {
                 variant={'secondary'}
                 className="rounded-3xl py-5 mx-auto text-white bg-[#ED1C8F] hover:bg-[#ed1c8fd1]"
               >
-                <Link href={'/contact'}>Contactez-nous</Link>
+                <Link href={'/contact'}>Contactez-moi</Link>
               </Button>
             </li>
           </motion.ul>

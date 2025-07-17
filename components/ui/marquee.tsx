@@ -1,36 +1,16 @@
-import { cn } from '@/lib/utils';
-import { ComponentPropsWithoutRef } from 'react';
+'use client';
 
-interface MarqueeProps extends ComponentPropsWithoutRef<'div'> {
-  /**
-   * Optional CSS class name to apply custom styles
-   */
+import { cn } from '@/lib/utils';
+import React, { useRef, useState, useEffect } from 'react';
+
+type MarqueeProps = React.ComponentPropsWithoutRef<'div'> & {
   className?: string;
-  /**
-   * Whether to reverse the animation direction
-   * @default false
-   */
   reverse?: boolean;
-  /**
-   * Whether to pause the animation on hover
-   * @default false
-   */
   pauseOnHover?: boolean;
-  /**
-   * Content to be displayed in the marquee
-   */
-  children: React.ReactNode;
-  /**
-   * Whether to animate vertically instead of horizontally
-   * @default false
-   */
   vertical?: boolean;
-  /**
-   * Number of times to repeat the content
-   * @default 4
-   */
   repeat?: number;
-}
+  children: React.ReactNode;
+};
 
 export default function Marquee({
   className,
@@ -41,6 +21,50 @@ export default function Marquee({
   repeat = 4,
   ...props
 }: MarqueeProps) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [touchStartY, setTouchStartY] = useState<number | null>(null);
+  const [deltaY, setDeltaY] = useState(0);
+
+  const handleTouchStart = (e: TouchEvent) => {
+    setTouchStartY(e.touches[0].clientY);
+  };
+
+  const handleTouchMove = (e: TouchEvent) => {
+    if (touchStartY !== null) {
+      const currentY = e.touches[0].clientY;
+      const delta = currentY - touchStartY;
+      setDeltaY(delta);
+      if (containerRef.current) {
+        containerRef.current.style.transform = `translateY(${delta}px)`;
+      }
+      e.preventDefault(); // Empêche le scroll écran
+    }
+  };
+
+  const handleTouchEnd = () => {
+    if (containerRef.current) {
+      containerRef.current.style.transform = `translateY(0px)`;
+    }
+    setTouchStartY(null);
+    setDeltaY(0);
+  };
+
+  useEffect(() => {
+    const node = containerRef.current;
+    if (!node) return;
+
+    // Add touch listeners manuellement avec { passive: false }
+    node.addEventListener('touchstart', handleTouchStart, { passive: true });
+    node.addEventListener('touchmove', handleTouchMove, { passive: false });
+    node.addEventListener('touchend', handleTouchEnd);
+
+    return () => {
+      node.removeEventListener('touchstart', handleTouchStart);
+      node.removeEventListener('touchmove', handleTouchMove);
+      node.removeEventListener('touchend', handleTouchEnd);
+    };
+  }, [touchStartY]);
+
   return (
     <div
       {...props}
@@ -52,6 +76,7 @@ export default function Marquee({
         },
         className
       )}
+      ref={containerRef}
     >
       {Array(repeat)
         .fill(0)

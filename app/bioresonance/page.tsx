@@ -190,7 +190,7 @@ export default function page() {
             asChild
             className=" py-8 px-10 text-lg  rounded-full bg-[#ED1C8F] hover:bg-[#ed1c8fbb] text-white"
           >
-            <Link href="/contact"> Réservez un appel</Link>
+            <Link href="/contact"> Réservez votre séance</Link>
           </Button>
         </div>
       </div>

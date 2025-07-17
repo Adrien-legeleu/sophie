@@ -31,28 +31,27 @@ export default function Services() {
                 height={500}
                 className="object-cover rounded-full w-48 mx-auto h-48"
               />
-
               <span className="absolute top-5 left-5 px-4 py-1 bg-white/50 rounded-full backdrop-blur-lg shadow-md flex">
                 <p
-                  className={`font-semibold text-[#ED1C8F]  ${service.title === 'Cure de Shungite' || service.title === 'Bilan de santé biorésonance' || service.title === 'Massage assis en entreprise' ? 'text-md' : 'text-xl'}`}
+                  className={`font-semibold text-[#ED1C8F]  ${service.title === 'Cure de Shungite' || service.title === 'Biorésonance' || service.title === 'Massage assis en entreprise' ? 'text-md' : 'text-xl'}`}
                 >
                   {service.duration}
                 </p>
               </span>
               <span
-                className={`absolute px-4 py-1 flex bg-white/50 backdrop-blur-md rounded-full shadow-md ${service.title === 'Cure de Shungite' || service.title === 'Massage assis en entreprise' || service.title === 'Bilan de santé biorésonance' ? 'left-5 top-16 ' : 'top-5 right-5'} `}
+                className={`absolute px-4 py-1 flex bg-white/50 backdrop-blur-md rounded-full shadow-md ${service.title === 'Cure de Shungite' || service.title === 'Massage assis en entreprise' || service.title === 'Biorésonance' ? 'left-5 top-16 ' : 'top-5 right-5'} `}
               >
                 <p
-                  className={`font-semibold text-[#ED1C8F]  ${service.title === 'Cure de Shungite' || service.title === 'Bilan de santé biorésonance' || service.title === 'Massage assis en entreprise' ? 'text-md' : 'text-xl'}`}
+                  className={`font-semibold text-[#ED1C8F]  ${service.title === 'Cure de Shungite' || service.title === 'Biorésonance' || service.title === 'Massage assis en entreprise' ? 'text-md' : 'text-xl'}`}
                 >
                   {service.price}
                 </p>
               </span>
+
               <h3 className="text-2xl text-[#C3B4A4] font-semibold mt-4">
                 {service.title}
               </h3>
               <p className="text-gray-600 mt-2">{service.description}</p>
-
               <div className="flex gap-10 pt-5 justify-center items-center">
                 <Button
                   asChild
@@ -77,6 +76,15 @@ export default function Services() {
 }
 
 const services = [
+  {
+    title: 'Drainage lymphatique',
+    description:
+      "Massage doux et rythmé visant à stimuler la circulation de la lymphe, réduire les gonflements, favoriser l'élimination des toxines et renforcer le système immunitaire.",
+    image: '/services/drainage lymphatique.jpg',
+    slug: '/drainage-lymphatique',
+    price: 'CHF 120',
+    duration: '60 min',
+  },
   {
     title: 'Massage thérapeutique',
     description:
@@ -105,15 +113,6 @@ const services = [
     duration: '60 min',
   },
   {
-    title: 'Massage relaxant dynamisé à la shungite',
-    description:
-      'Allie massage relaxant et propriétés protectrices de la shungite, pour une détente profonde et un regain d’énergie.',
-    slug: '/blank',
-    image: '/services/massage relaxant dynamise a la shungite.avif',
-    price: 'CHF 100',
-    duration: '60 min',
-  },
-  {
     title: 'Soin aux ventouses',
     description:
       'Technique ancestrale par succion pour stimuler la circulation, favoriser la détoxification et soulager les tensions musculaires.',
@@ -123,12 +122,21 @@ const services = [
     duration: '30 min',
   },
   {
-    title: 'Drainage lymphatique',
+    title: 'Massage assis en entreprise',
     description:
-      "Massage doux et rythmé visant à stimuler la circulation de la lymphe, réduire les gonflements, favoriser l'élimination des toxines et renforcer le système immunitaire.",
-    image: '/services/drainage lymphatique.jpg',
-    slug: '/drainage-lymphatique',
-    price: 'CHF 120',
+      'Bien-être au travail, sans huile et sur vêtements. Idéal pour relâcher les tensions et se revitaliser. Un devis personnalisé peut être établi. ',
+    image: '/services/entreprise chair massage.jpg',
+    slug: '/massage-assis',
+    price: 'CHF 40 / 15min',
+    duration: 'CHF 700 / 20 séances',
+  },
+  {
+    title: 'Massage relaxant dynamisé à la shungite',
+    description:
+      'Allie massage relaxant et propriétés protectrices de la shungite, pour une détente profonde et un regain d’énergie.',
+    slug: '/massage-relaxant-1',
+    image: '/services/massage relaxant dynamise a la shungite.avif',
+    price: 'CHF 100',
     duration: '60 min',
   },
   {
@@ -139,15 +147,6 @@ const services = [
     slug: '/ampoules',
     price: 'CHF 100',
     duration: '60 min',
-  },
-  {
-    title: 'Massage assis en entreprise',
-    description:
-      'Bien-être au travail, sans huile et sur vêtements. Idéal pour relâcher les tensions et se revitaliser. Un devis personnalisé peut être établi. ',
-    image: '/services/entreprise chair massage.jpg',
-    slug: '/massage-assis',
-    price: 'CHF 40 / 15min',
-    duration: 'CHF 700 / 20 séances',
   },
   {
     title: 'Cure de Shungite',

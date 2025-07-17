@@ -80,6 +80,10 @@ export function Header({ className }: { className?: string }) {
                 <HoveredLink href="/massage-assis">
                   <IconChairDirector stroke={2} /> Massage assis en entreprise
                 </HoveredLink>
+                <HoveredLink href="/massage-relaxant-1">
+                  <IconChairDirector stroke={2} />
+                  Massage relaxant dynamisé à la shungite
+                </HoveredLink>
               </div>
             </MenuItem>
             <MenuItem
