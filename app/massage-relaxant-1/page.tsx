@@ -21,7 +21,7 @@ export default function page() {
             pierre, connue pour ses propriétés purifiantes et protectrices, aide
             à rééquilibrer les énergies tout en absorbant les ondes
             électromagnétiques. Ce type de massage permet de relâcher les
-            tensions, d'apaiser le corps, tout en optimisant l&apos;énergie
+            tensions, d&apos;apaiser le corps, tout en optimisant l&apos;énergie
             vitale. En plus d&apos;être un remède 100% naturel, il aide à
             revitaliser l’organisme sans effets secondaires.
           </p>
@@ -61,7 +61,7 @@ export default function page() {
             le temps d&apos;en savoir plus sur vous, votre état de stress, les
             tensions que vous pouvez ressentir au quotidien ou dans des
             situations bien précises, comme au travail. Après cette étape,
-            j'adapte l&apos;intensité de mes manœuvres et{' '}
+            j&apos;adapte l&apos;intensité de mes manœuvres et{' '}
             <strong>les zones du corps sur lesquelles il faut insister.</strong>{' '}
             Le massage relaxant se pratique avec des huiles essentielles
             d&apos;origine suisse et la séance se termine par un petit temps de
