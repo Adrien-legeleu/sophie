@@ -10,6 +10,7 @@ import Suzana from '@/public/avis/suzana filipe profil.png';
 import Zoe from '@/public/avis/zoe profil.png';
 import Patrick from '@/public/avis/patrick profil.png';
 import Jenna from '@/public/avis/jenna profil.png';
+import Chayma from '@/public/avis/chayma.png';
 
 import { motion } from 'framer-motion';
 import Image, { StaticImageData } from 'next/image';
@@ -23,6 +24,11 @@ interface ReviewType {
 }
 
 const reviews: ReviewType[] = [
+  {
+    name: 'Chayma Gbali',
+    text: 'Par hasard et guidé par mon instinct, j’ai découvert chez Sophie un véritable havre de douceur, de professionnalisme et de détente. Dès mon arrivée, son accueil chaleureux m’a immédiatement mis à l’aise. Le soin Hijama a été exceptionnel, à la fois efficace, apaisant et pratiqué avec une grande maîtrise. Ce fut une très belle découverte, que je recommande sans hésiter. Une chose est sûre: j’y retournerai avec plaisir 💫.Meeeeci beaucoup Sophie 🌱',
+    image: Chayma,
+  },
   {
     name: 'Mathilde Fornay',
     text: "Si vous cherchez un endroit où vous reposer, profiter de douceurs et de bienveillance, c'est ici qu'il faut aller ! Accueilli par une femme rayonnante de bienveillance, vous découvrirez un cadre idyllique. Chaque instant est une parenthèse enchantée dédiée à la relaxation. Elle est à l'écoute de vos besoins et adapte chaque séance à vos préférences. Une expérience vraiment exceptionnelle !",
