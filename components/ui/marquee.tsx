@@ -23,7 +23,6 @@ export default function Marquee({
 }: MarqueeProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [touchStartY, setTouchStartY] = useState<number | null>(null);
-  const [deltaY, setDeltaY] = useState(0);
 
   const handleTouchStart = (e: TouchEvent) => {
     setTouchStartY(e.touches[0].clientY);
@@ -33,7 +32,6 @@ export default function Marquee({
     if (touchStartY !== null) {
       const currentY = e.touches[0].clientY;
       const delta = currentY - touchStartY;
-      setDeltaY(delta);
       if (containerRef.current) {
         containerRef.current.style.transform = `translateY(${delta}px)`;
       }
@@ -46,7 +44,6 @@ export default function Marquee({
       containerRef.current.style.transform = `translateY(0px)`;
     }
     setTouchStartY(null);
-    setDeltaY(0);
   };
 
   useEffect(() => {
