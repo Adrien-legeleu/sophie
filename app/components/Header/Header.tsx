@@ -66,7 +66,10 @@ export function Header({ className }: { className?: string }) {
                   <IconStethoscope stroke={2} />
                   Massage Thérapeutique
                 </HoveredLink>
-
+                <HoveredLink href="/massage-relaxant-1">
+                  <IconChairDirector stroke={2} />
+                  Massage relaxant dynamisé à la shungite
+                </HoveredLink>
                 <HoveredLink href="/massage-relaxant-huiles-essentielles">
                   <IconMoodSmile stroke={2} /> Massage relaxant aux huiles
                   essentielles
@@ -79,10 +82,6 @@ export function Header({ className }: { className?: string }) {
                 </HoveredLink>
                 <HoveredLink href="/massage-assis">
                   <IconChairDirector stroke={2} /> Massage assis en entreprise
-                </HoveredLink>
-                <HoveredLink href="/massage-relaxant-1">
-                  <IconChairDirector stroke={2} />
-                  Massage relaxant dynamisé à la shungite
                 </HoveredLink>
               </div>
             </MenuItem>

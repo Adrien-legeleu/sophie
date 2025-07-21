@@ -17,11 +17,13 @@ export default function HeroHome() {
         alt="logo-sophie-dénériaz"
         width={1000}
         height={1000}
-        className="lg:w-96 w-1/2  relative top-10 z-10"
+        className="lg:w-96  w-[40%] relative top-10 z-10"
       />
       <div className="z-10 px-5 space-y-2">
         <h2 className=" md:text-6xl sm:text-5xl text-4xl  font-semibold z-10">
           Massages
+          <br />
+          Drainage lymphatique
           <br />
           Relaxation & Bien-être
         </h2>

@@ -63,9 +63,8 @@ export default function page() {
             situations bien précises, comme au travail. Après cette étape,
             j&apos;adapte l&apos;intensité de mes manœuvres et{' '}
             <strong>les zones du corps sur lesquelles il faut insister.</strong>{' '}
-            Le massage relaxant se pratique avec des huiles essentielles
-            d&apos;origine suisse et la séance se termine par un petit temps de
-            repos, le temps pour vous de retrouver vos esprits.
+            La séance se termine par un petit temps de repos, le temps pour vous
+            de retrouver vos esprits.
           </p>
         </div>
         <div className="space-y-5">

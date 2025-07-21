@@ -104,12 +104,30 @@ const services = [
     duration: '60 min',
   },
   {
+    title: 'Massage relaxant dynamisé à la shungite',
+    description:
+      'Allie massage relaxant et propriétés protectrices de la shungite, pour une détente profonde et un regain d’énergie.',
+    slug: '/massage-relaxant-1',
+    image: '/services/massage relaxant dynamise a la shungite.avif',
+    price: 'CHF 100',
+    duration: '60 min',
+  },
+  {
     title: 'Réflexologie plantaire',
     description:
       'Thérapie douce par stimulation des zones réflexes du pied. Libère les tensions, stimule les fonctions naturelles du corps et favorise l’équilibre global.',
     slug: '/reflexologie-plantaire',
     image: '/services/réflexologie plantaire.avif',
     price: 'CHF 120',
+    duration: '60 min',
+  },
+  {
+    title: 'Soin aux ventouses & massage classique',
+    description:
+      '30 min de ventouses suivies d’un massage aux huiles essentielles pour libérer les tensions, soulager douleurs et migraines, et améliorer la souplesse musculaire.',
+    image: '/services/soins aux ventouses.avif',
+    slug: '/ampoules',
+    price: 'CHF 100',
     duration: '60 min',
   },
   {
@@ -130,24 +148,7 @@ const services = [
     price: 'CHF 40 / 15min',
     duration: 'CHF 700 / 20 séances',
   },
-  {
-    title: 'Massage relaxant dynamisé à la shungite',
-    description:
-      'Allie massage relaxant et propriétés protectrices de la shungite, pour une détente profonde et un regain d’énergie.',
-    slug: '/massage-relaxant-1',
-    image: '/services/massage relaxant dynamise a la shungite.avif',
-    price: 'CHF 100',
-    duration: '60 min',
-  },
-  {
-    title: 'Soin aux ventouses & massage classique',
-    description:
-      '30 min de ventouses suivies d’un massage aux huiles essentielles pour libérer les tensions, soulager douleurs et migraines, et améliorer la souplesse musculaire.',
-    image: '/services/soins aux ventouses.avif',
-    slug: '/ampoules',
-    price: 'CHF 100',
-    duration: '60 min',
-  },
+
   {
     title: 'Cure de Shungite',
     description:
