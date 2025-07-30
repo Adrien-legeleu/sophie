@@ -140,7 +140,7 @@ const certificationsText: Record<string, CertificationInfo> = {
     description:
       'Reconnaissance officielle par la Fondation suisse pour les médecines complémentaires (ASCA) pour la pratique du massage classique. Cette certification atteste la qualité et le sérieux de la pratique de Sophie Dénériaz.',
   },
-  '/certifications/Diplôme Réflexologie Plantaire.jpg': {
+  '/certifications/Diplôme Réflexologie Plantaire.jpeg': {
     title: 'Diplôme de Réflexologie Plantaire',
     description:
       'Formation de 105 heures axée sur les zones réflexes des pieds pour agir sur les organes et fonctions du corps. Ce diplôme valide une approche naturelle et efficace du rééquilibrage énergétique.',
