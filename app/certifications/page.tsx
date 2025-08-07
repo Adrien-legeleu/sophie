@@ -128,7 +128,9 @@ const certifications = [
   '/certifications/médecine académique.avif',
   '/certifications/massage classique.avif',
   '/certifications/ventouses.avif',
+  '/certifications/Diplôme Drainage Lymphatique.png', // ✅ nouveau
 ];
+
 interface CertificationInfo {
   title: string;
   description: string;
@@ -143,26 +145,32 @@ const certificationsText: Record<string, CertificationInfo> = {
   '/certifications/Diplôme Réflexologie Plantaire.jpeg': {
     title: 'Diplôme de Réflexologie Plantaire',
     description:
-      'Formation de 105 heures axée sur les zones réflexes des pieds pour agir sur les organes et fonctions du corps. Ce diplôme valide une approche naturelle et efficace du rééquilibrage énergétique.',
+      'Formation axée sur les zones réflexes des pieds pour agir sur les organes et fonctions du corps. Ce diplôme valide une approche naturelle et efficace du rééquilibrage énergétique.',
   },
   '/certifications/médecine académique.avif': {
     title: 'Diplôme de Médecine Académique',
     description:
-      '150 heures de formation en anatomie, physiologie et pathologie. Un socle scientifique indispensable pour proposer une pratique de massage sécurisée, éclairée et respectueuse du corps.',
+      'Anatomie, physiologie et pathologie : un socle scientifique indispensable pour une pratique sécurisée, éclairée et respectueuse du corps.',
   },
   '/certifications/massage classique.avif': {
     title: 'Diplôme de Massage Classique',
     description:
-      'Diplôme pratique de 150 heures en massage classique, sanctionné par un examen réussi. Il garantit une maîtrise des techniques manuelles pour un soin relaxant ou thérapeutique personnalisé.',
+      'Diplôme pratique validant la maîtrise des techniques manuelles pour un soin relaxant ou thérapeutique personnalisé.',
   },
   '/certifications/ventouses.avif': {
     title: 'Attestation en Technique des Ventouses',
     description:
-      '16 heures de formation continue dédiées à la technique des ventouses, utilisées pour soulager les tensions musculaires et favoriser la circulation sanguine de manière naturelle.',
+      'Formation dédiée à la technique des ventouses, utilisée pour soulager les tensions et favoriser la circulation sanguine.',
   },
   '/certifications/RME 2025_page-0001.jpg': {
     title: 'Certificat RME – Massage réflexe et massage classique (2025–2026)',
     description:
-      'Reconnaissance officielle RME valable du 09.05.2025 au 09.05.2026 pour Sophie Dénériaz. Ce certificat atteste de la conformité aux critères de qualité du RME pour les prestations suivantes : Massage des zones réflexes du pied (N°81) et Massage classique (N°102).',
+      'Reconnaissance officielle RME valable du 09.05.2025 au 09.05.2026 pour Sophie Dénériaz. Prestations reconnues : Massage des zones réflexes du pied (N°81) et Massage classique (N°102).',
+  },
+  '/certifications/Diplôme Drainage Lymphatique.png': {
+    // ✅ nouveau
+    title: 'Diplôme de Drainage Lymphatique',
+    description:
+      'Certification attestant la maîtrise des techniques de drainage lymphatique manuel, visant à stimuler la circulation lymphatique, réduire les œdèmes et favoriser une meilleure récupération.',
   },
 };
