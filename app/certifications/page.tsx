@@ -124,11 +124,11 @@ export default function Page() {
 const certifications = [
   '/certifications/ASCA 2025_page-0001.jpg',
   '/certifications/RME 2025_page-0001.jpg',
+  '/certifications/Diplôme Drainage Lymphatique.png', // ✅ nouveau
   '/certifications/Diplôme Réflexologie Plantaire.jpeg',
   '/certifications/médecine académique.avif',
   '/certifications/massage classique.avif',
   '/certifications/ventouses.avif',
-  '/certifications/Diplôme Drainage Lymphatique.png', // ✅ nouveau
 ];
 
 interface CertificationInfo {
@@ -141,6 +141,12 @@ const certificationsText: Record<string, CertificationInfo> = {
     title: 'Certification d’agrégation ASCA',
     description:
       'Reconnaissance officielle par la Fondation suisse pour les médecines complémentaires (ASCA) pour la pratique du massage classique. Cette certification atteste la qualité et le sérieux de la pratique de Sophie Dénériaz.',
+  },
+  '/certifications/Diplôme Drainage Lymphatique.png': {
+    // ✅ nouveau
+    title: 'Diplôme de Drainage Lymphatique',
+    description:
+      'Certification attestant la maîtrise des techniques de drainage lymphatique manuel, visant à stimuler la circulation lymphatique, réduire les œdèmes et favoriser une meilleure récupération.',
   },
   '/certifications/Diplôme Réflexologie Plantaire.jpeg': {
     title: 'Diplôme de Réflexologie Plantaire',
@@ -166,11 +172,5 @@ const certificationsText: Record<string, CertificationInfo> = {
     title: 'Certificat RME – Massage réflexe et massage classique (2025–2026)',
     description:
       'Reconnaissance officielle RME valable du 09.05.2025 au 09.05.2026 pour Sophie Dénériaz. Prestations reconnues : Massage des zones réflexes du pied (N°81) et Massage classique (N°102).',
-  },
-  '/certifications/Diplôme Drainage Lymphatique.png': {
-    // ✅ nouveau
-    title: 'Diplôme de Drainage Lymphatique',
-    description:
-      'Certification attestant la maîtrise des techniques de drainage lymphatique manuel, visant à stimuler la circulation lymphatique, réduire les œdèmes et favoriser une meilleure récupération.',
   },
 };
